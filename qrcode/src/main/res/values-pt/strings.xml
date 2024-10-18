@@ -1,0 +1,49 @@
+<resources>
+    <string name="please_wait">Aguarde por favor…</string>
+    <string name="action_generate">Gerar</string>
+    <string name="action_history">Histórico</string>
+    <string name="action_scan">Digitalizar</string>
+    <string name="toolbar_title_scan">Scanner de Códigos</string>
+    <string name="toolbar_title_history">Histórico</string>
+    <string name="play_sound">Reproduzir Som</string>
+    <string name="vibrate">Vibrar</string>
+    <string name="save_history">Salvar Histórico</string>
+    <string name="copy_to_clipboard">Copiar para a Área de Transferência</string>
+    <string name="hint_enter_your_text">Digite seu Texto</string>
+    <string name="error_provide_proper_content_and_type">Forneça as informações corretas antes de gerar o código</string>
+    <string name="error_barcode_content_limit">O comprimento do conteúdo do código de barras deve estar entre 1 e 80</string>
+    <string name="error_qrcode_content_limit">O comprimento do conteúdo do código QR deve estar entre 1 e 1000</string>
+    <string name="toolbar_title_generated_qr_code">Código QR Gerado</string>
+    <string name="code_type">Tipo: %s</string>
+    <string name="scanResultContent">Conteúdo: %s</string>
+    <string name="saved_the_code_successfully">Código salvo com sucesso</string>
+    <string name="failed_to_save_the_code">Falha ao salvar o código</string>
+    <string name="failed_to_share_the_code">Falha ao compartilhar o código</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">O código gerado já existe no armazenamento local</string>
+    <string name="share_code_using">Compartilhar código usando...</string>
+    <string name="flash">Flash</string>
+    <string name="scan_gallery">Digitalizar Galeria</string>
+    <string name="error_occured_while_scanning">Erro durante a digitalização</string>
+    <string name="error_could_not_load_the_image">Não foi possível carregar a imagem</string>
+    <string name="error_did_not_find_any_content">Não foi encontrado nenhum conteúdo. Tente novamente com uma imagem diferente</string>
+    <string name="toolbar_title_scan_result">Resultado da Digitalização</string>
+    <string name="open_in_browser">Abrir no navegador</string>
+    <string name="created_time">Hora de Criação: %s</string>
+    <string name="scanned_qr_code_content">Conteúdo do código QR digitalizado</string>
+    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="code_scan">%s Digitalização</string>
+    <string name="no_item">O histórico de digitalizações está vazio</string>
+    <string name="get_value">Obter valor</string>
+    <string name="toolbar_title_uploaded_image">Imagem Enviada</string>
+    <string name="error_something_wrong">Algo deu errado</string>
+    <string name="action_delete">Excluir</string>
+    <string name="this_permission_is_needed" translatable="false">Esta permissão é necessária</string>
+    <string name="permission_title_needed" translatable="false">Permissão necessária</string>
+    <string name="qrcodescan">Digitalização de Código QR</string>
+    <string name="jpg_viewer_not_installed">Visualizador de JPG não instalado</string>
+    <string name="file_saved">Arquivo Salvo</string>
+    <string name="action_open">Abrir</string>
+    <string name="share_file">Compartilhar Arquivo</string>
+
+</resources>

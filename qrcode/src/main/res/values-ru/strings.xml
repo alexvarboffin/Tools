@@ -1,0 +1,72 @@
+<resources>
+    <!--App Essentials-->
+    <string name="toolbar_title_generate">Создать QR/Bar-код</string>
+
+
+    <!--Essentials-->
+    <string name="please_wait">Подождите пожалуйста…</string>
+
+    <!--Home page-->
+    <string name="action_generate">Создать код</string>
+    <string name="action_history">История</string>
+    <string name="action_scan">Скан</string>
+
+    <string name="toolbar_title_scan">Сканер кода</string>
+    <string name="toolbar_title_history">История сканирования</string>
+
+    <!--Settings page-->
+    <string name="play_sound">Звуковой сигнал</string>
+    <string name="vibrate">Вибрация</string>
+    <string name="save_history">Сохранить историю</string>
+    <string name="copy_to_clipboard">Копировать в буфер обмена</string>
+
+
+    <!--Generate page-->
+    <string name="hint_enter_your_text">Введите текст</string>
+    <string name="error_provide_proper_content_and_type">Пожалуйста, предоставьте правильную информацию перед генерацией кода</string>
+    <string name="error_barcode_content_limit">Длина содержимого штрих-кода должна быть от 1 до 80</string>
+    <string name="error_qrcode_content_limit">Длина содержимого QR-кода должна быть от 1 до 1000</string>
+
+
+    <!--Generated QR Code page-->
+    <string name="toolbar_title_generated_qr_code">Сгенерированный QR-код</string>
+    <string name="code_type">Тип: %s</string>
+    <string name="scanResultContent">Содержание: %s</string>
+    <string name="saved_the_code_successfully">Код успешно сохранен</string>
+    <string name="failed_to_save_the_code">не удалось сохранить код</string>
+    <string name="failed_to_share_the_code">не удалось поделиться кодом</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">Сгенерированный код уже существует в локальном хранилище</string>
+    <string name="share_code_using">Поделитесь кодом, используя…</string>
+
+    <!--Scan page-->
+    <string name="flash">Вспышка</string>
+    <string name="scan_gallery">Галерея</string>
+    <string name="error_occured_while_scanning">Произошла ошибка при сканировании</string>
+    <string name="error_could_not_load_the_image">Не удалось загрузить изображение</string>
+    <string name="error_did_not_find_any_content">Не нашел никакого контента. Попробуйте еще раз с другим изображением</string>
+
+    <!--Scan result page-->
+    <string name="toolbar_title_scan_result">Результат сканирования</string>
+    <string name="open_in_browser">Открыть в браузере</string>
+    <string name="created_time">Время сканирования: %s</string>
+    <string name="scanned_qr_code_content">Отсканированное содержание QR-кода</string>
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+
+    <!--History page-->
+    <string name="code_scan">%s Сканирование</string>
+    <string name="no_item">История сканирования пуста</string>
+
+    <!--Picked image from gallery page-->
+    <string name="get_value">Получить значение</string>
+    <string name="toolbar_title_uploaded_image">Загруженное изображение</string>
+
+    <string name="error_something_wrong">Что-то пошло не так</string>
+    <string name="action_delete">Удалить</string>
+    <string name="qrcodescan">Сканирование QR-кода</string>
+    <string name="jpg_viewer_not_installed">JPG-просмотрщик не установлен</string>
+    <string name="file_saved">Файл сохранен</string>
+    <string name="action_open">Открыть</string>
+    <string name="share_file">Поделиться файлом</string>
+
+</resources>

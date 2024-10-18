@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/title_mode_random">
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="0"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="mode_random_min"
+            android:maxLength="4"
+            android:summary="0"
+            android:title="@string/pr_randomness_rate_min"
+            app:enableCopying="true"
+            app:icon="@mipmap/ic_launcher" />
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="0"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="mode_random_max"
+            android:maxLength="4"
+            android:summary="0"
+
+            android:title="@string/pr_randomness_rate_max" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_mode_simple">
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="0"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="mode_simple_min_speed"
+            android:maxLength="4"
+            android:summary="0"
+
+            android:title="@string/pr_mode_simple_min_level" />
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="0"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="mode_simple_max_speed"
+            android:maxLength="4"
+            android:summary="0"
+
+            android:title="@string/pr_mode_simple_max_level" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_mode_manual">
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="0"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="mode_extended_timeout_min"
+            android:maxLength="4"
+            android:summary="0"
+
+            android:title="@string/pr_mode_extended_timeout_min" />
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="0"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="mode_extended_timeout_max"
+            android:maxLength="4"
+            android:summary="0"
+
+            android:title="@string/pr_mode_extended_timeout_max" />
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="0"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="mode_extended_duration_min"
+            android:maxLength="4"
+            android:summary="0"
+
+            android:title="@string/pr_mode_extended_duration_min" />
+
+        <androidx.preference.EditTextPreference
+            android:defaultValue="0"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="mode_extended_duration_max"
+            android:maxLength="4"
+            android:summary="0"
+            android:numeric="integer"
+            android:title="@string/pr_mode_extended_duration_max" />
+    </PreferenceCategory>
+</PreferenceScreen>

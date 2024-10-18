@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Χρώμα φυσαλίδας</string>
+    <string name="abc_bubbleSensitivity">Ευαισθησία φυσαλίδας</string>
+    <string name="abc_calibrate">Καλιμπράρισμα</string>
+    <string name="abc_calibrateText">Τοποθετήστε τη συσκευή σας με την οθόνη προς τα πάνω σε μια επίπεδη και λεία επιφάνεια (π.χ. το πάτωμα του δωματίου σας) και πατήστε ΚΑΛΙΜΠΡΑΡΙΣΜΑ. Για να επαναφέρετε τη ρύθμιση του εργοστασίου, πατήστε ΕΠΑΝΑΦΟΡΑ.</string>
+    <string name="abc_calibration_finished">Η καλιμπράρισμα ολοκληρώθηκε</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">Χρώμα υγρού</string>
+    <string name="abc_moreApps">Περισσότερες εφαρμογές</string>
+    <string name="abc_pause">Παύση ή συνέχεια</string>
+    <string name="abc_permission_explanation">Η άδεια κάμερας είναι απαραίτητη για την εμφάνιση οπτικών πληροφοριών στην οθόνη</string>
+    <string name="abc_precision">Ακρίβεια</string>
+    <string name="abc_remove_ads">Κατάργηση διαφημίσεων και υποστήριξη αυτού του έργου</string>
+    <string name="abc_restore">Επαναφορά</string>
+    <string name="abc_restore_settings">Επαναφορά αρχικών ρυθμίσεων</string>
+    <string name="abc_save_settings">Αποθήκευση</string>
+    <string name="abc_settings">Ρυθμίσεις</string>
+    <string name="abc_settings_saved">Οι ρυθμίσεις αποθηκεύτηκαν</string>
+    <string name="abc_share">Κοινή χρήση με…</string>
+    <string name="abc_showSign">Εμφάνιση αρνητικού σημείου</string>
+    <string name="abc_start">Έναρξη</string>
+</resources>

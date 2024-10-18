@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Pufak Rangi</string>
+    <string name="abc_bubbleSensitivity">Pufak Hissiyot</string>
+    <string name="abc_calibrate">Kalibrlash</string>
+    <string name="abc_calibrateText">Moslamangizni tekis va silliq yuzaga (masalan, xona poliga) qarab joylashtiring va KALIBRLASH tugmasini bosing. Zavod kalibrlashiga qaytarish uchun RESTORE tugmasini bosing.</string>
+    <string name="abc_calibration_finished">Kalibrlash tugadi</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">Suyuqlik Rangi</string>
+    <string name="abc_moreApps">Ko\'proq ilovalar</string>
+    <string name="abc_pause">To\'xtatish yoki davom ettirish</string>
+    <string name="abc_permission_explanation">Ekranda vizual ma\'lumotlarni ko\'rsatish uchun kamera ruxsati kerak</string>
+    <string name="abc_precision">Aniqlik</string>
+    <string name="abc_remove_ads">Reklamalarni olib tashlang va ushbu loyihani qo\'llab-quvvatlang</string>
+    <string name="abc_restore">Qayta tiklash</string>
+    <string name="abc_restore_settings">Dastlabki sozlamalarni qayta tiklash</string>
+    <string name="abc_save_settings">Saqlash</string>
+    <string name="abc_settings">Sozlamalar</string>
+    <string name="abc_settings_saved">Sozlamalar saqlandi</string>
+    <string name="abc_share">Bo\'lishish…</string>
+    <string name="abc_showSign">Manfiy belgi ko\'rsatish</string>
+    <string name="abc_start">Boshlash</string>
+
+</resources>

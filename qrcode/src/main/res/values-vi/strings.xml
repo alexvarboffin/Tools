@@ -1,0 +1,49 @@
+<resources>
+    <string name="please_wait">Vui lòng đợi…</string>
+    <string name="action_generate">Tạo</string>
+    <string name="action_history">Lịch sử</string>
+    <string name="action_scan">Quét</string>
+    <string name="toolbar_title_scan">Máy quét mã</string>
+    <string name="toolbar_title_history">Lịch sử</string>
+    <string name="play_sound">Phát âm thanh</string>
+    <string name="vibrate">Rung</string>
+    <string name="save_history">Lưu lịch sử</string>
+    <string name="copy_to_clipboard">Sao chép vào Clipboard</string>
+    <string name="hint_enter_your_text">Nhập văn bản của bạn</string>
+    <string name="error_provide_proper_content_and_type">Vui lòng cung cấp thông tin chính xác trước khi tạo mã</string>
+    <string name="error_barcode_content_limit">Độ dài nội dung của mã vạch phải từ 1 đến 80</string>
+    <string name="error_qrcode_content_limit">Độ dài nội dung của mã QR phải từ 1 đến 1000</string>
+    <string name="toolbar_title_generated_qr_code">Mã QR được tạo</string>
+    <string name="code_type">Loại: %s</string>
+    <string name="scanResultContent">Nội dung: %s</string>
+    <string name="saved_the_code_successfully">Lưu mã thành công</string>
+    <string name="failed_to_save_the_code">Không thể lưu mã</string>
+    <string name="failed_to_share_the_code">Không thể chia sẻ mã</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">Mã đã được tạo trước đó trong bộ nhớ cục bộ</string>
+    <string name="share_code_using">Chia sẻ mã bằng cách sử dụng…</string>
+    <string name="flash">Đèn flash</string>
+    <string name="scan_gallery">Quét Galerie</string>
+    <string name="error_occured_while_scanning">Có lỗi xảy ra trong quá trình quét</string>
+    <string name="error_could_not_load_the_image">Không thể tải hình ảnh</string>
+    <string name="error_did_not_find_any_content">Không tìm thấy nội dung nào. Thử lại với hình ảnh khác</string>
+    <string name="toolbar_title_scan_result">Kết quả quét</string>
+    <string name="open_in_browser">Mở trong trình duyệt</string>
+    <string name="created_time">Thời gian tạo: %s</string>
+    <string name="scanned_qr_code_content">Nội dung mã QR đã quét</string>
+    <string name="copied_to_clipboard">Đã sao chép vào Clipboard</string>
+    <string name="code_scan">%s Quét</string>
+    <string name="no_item">Lịch sử quét trống rỗng</string>
+    <string name="get_value">Lấy giá trị</string>
+    <string name="toolbar_title_uploaded_image">Hình ảnh đã tải lên</string>
+    <string name="error_something_wrong">Đã xảy ra lỗi</string>
+    <string name="action_delete">Xóa</string>
+    <string name="this_permission_is_needed" translatable="false">Quyền này cần được cấp</string>
+    <string name="permission_title_needed" translatable="false">Cần quyền</string>
+    <string name="qrcodescan">Quét Mã QR</string>
+    <string name="jpg_viewer_not_installed">Người xem JPG chưa được cài đặt</string>
+    <string name="file_saved">Tệp đã được lưu</string>
+    <string name="action_open">Mở</string>
+    <string name="share_file">Chia sẻ tệp</string>
+
+</resources>

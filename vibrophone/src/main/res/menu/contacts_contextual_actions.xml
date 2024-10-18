@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contact_menu">
+    <item
+        android:id="@+id/contactMenuApplyContactMenu"
+        android:icon="@drawable/apply_active"
+        android:title="Apply vybration">
+        <menu>
+            <item
+                android:id="@+id/contactMenuApplyContact"
+                android:icon="@drawable/apply_both_active"
+                android:title="Apply" />
+            <item
+                android:id="@+id/contactMenuApplyContactCall"
+                android:icon="@drawable/apply_call_active"
+                android:title="Apply to call" />
+            <item
+                android:id="@+id/contactMenuApplyContactSMS"
+                android:icon="@drawable/apply_message_active"
+                android:title="Apply to SMS" />
+            <item
+                android:id="@+id/contactMenuApplyContactWhatsappText"
+                android:icon="@drawable/apply_whatsapp_active"
+                android:title="Apply to WhatsApp" />
+            <item
+                android:id="@+id/contactMenuApplyContactViberText"
+                android:icon="@drawable/apply_viber_active"
+                android:title="Apply to Viber" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/contactMenuRemoveContactMenu"
+        android:icon="@drawable/remove_delete_active"
+        android:title="Remove vybration">
+        <menu>
+            <item
+                android:id="@+id/contactMenuRemoveContact"
+                android:icon="@drawable/remove_both_active"
+                android:title="Remove" />
+            <item
+                android:id="@+id/contactMenuRemoveContactCall"
+                android:icon="@drawable/remove_call_active"
+                android:title="Remove from call" />
+            <item
+                android:id="@+id/contactMenuRemoveContactSMS"
+                android:icon="@drawable/remove_message_active"
+                android:title="Remove from SMS" />
+            <item
+                android:id="@+id/contactMenuRemoveContactWhatsappText"
+                android:icon="@drawable/remove_whatsapp_active"
+                android:title="Remove from WhatsApp" />
+            <item
+                android:id="@+id/contactMenuRemoveContactViberText"
+                android:icon="@drawable/remove_viber_active"
+                android:title="Remove from Viber" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/contactSelectMenu"
+        android:icon="@drawable/menu_active"
+        android:title="Select">
+        <menu>
+            <item
+                android:id="@+id/contactMenuSelectAll"
+                android:icon="@drawable/select_all_active"
+                android:title="Select all" />
+            <item
+                android:id="@+id/contactMenuSelectInverse"
+                android:icon="@drawable/select_inverse_active"
+                android:title="Select inverse" />
+            <item
+                android:id="@+id/contactMenuSelectApplied"
+                android:icon="@drawable/select_applied_active"
+                android:title="Select applied" />
+            <item
+                android:id="@+id/contactMenuSelectAppliedCall"
+                android:icon="@drawable/select_all_call_active"
+                android:title="Select call" />
+            <item
+                android:id="@+id/contactMenuSelectAppliedSMS"
+                android:icon="@drawable/select_all_message_active"
+                android:title="Select SMS" />
+            <item
+                android:id="@+id/contactMenuSelectAppliedWhatsappText"
+                android:icon="@drawable/selected_whatsapp_active"
+                android:title="Select WhatsApp" />
+            <item
+                android:id="@+id/contactMenuSelectAppliedViberText"
+                android:icon="@drawable/selected_viber_active"
+                android:title="Select Viber" />
+        </menu>
+    </item>
+</menu>

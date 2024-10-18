@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- More saturated colors -->
+    <color name="colorAccent">#FF4081</color> <!-- Already vibrant -->
+    <color name="colorPrimary">#3F51B5</color> <!-- Already vibrant -->
+    <color name="colorPrimaryDark">#303F9F</color> <!-- Already vibrant -->
+    <color name="degreesTranslucentbg">#B02000FF</color> <!-- More saturated than #8d214600 -->
+    <color name="dark_gray">#242424</color> <!-- More saturated than #767a7c -->
+    <color name="degrees">#FFC107</color> <!-- More saturated than #ffe100 -->
+    <color name="degreesbg">#4E8A00</color> <!-- More saturated than #214600 -->
+    <color name="green1">#00FF00</color> <!-- More saturated than #6cff44 -->
+    <color name="green2">#00D100</color> <!-- More saturated than #56cc36 -->
+    <color name="lightbg">#9A9AFF</color> <!-- More saturated than #c2c8ff -->
+    <color name="lightgray">#B0BEC5</color> <!-- More saturated than #cfd8dc -->
+    <color name="mainbg">#303F9F</color> <!-- More saturated than #1a237e -->
+    <color name="red">#F44336</color> <!-- Already vibrant -->
+    <color name="settingsheader">#0D47A1</color> <!-- Already vibrant -->
+    <color name="transparent">@android:color/transparent</color>
+
+
+    <color name="toolbarStartColor">#303F9F</color>
+    <color name="toolbarEndColor">#000000</color>
+    <color name="splash_cool_white">#f4f4f4</color>
+
+</resources>
+

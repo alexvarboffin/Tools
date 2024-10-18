@@ -1,0 +1,29 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/response"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="response" />
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:drawableEnd="@drawable/ic_business"
+            android:drawablePadding="20dp"
+            android:drawableRight="@drawable/ic_business"
+            android:padding="15dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:text="balance" />
+    </RelativeLayout>
+</layout>

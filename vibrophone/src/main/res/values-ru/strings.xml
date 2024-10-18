@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <!--    <string name="app_name">Расслабься Вибрации</string>-->
+
+
+    <string name="mode_random">Random\nMode</string>
+    <string name="mode_simple">Simple\nMode</string>
+    <string name="mode_manual">Ex.\nMode</string>
+
+    <string name="title_mode_random">Случайный Режим</string>
+    <string name="title_mode_simple">Обычный Режим</string>
+    <string name="title_mode_manual">Расширенный Режим</string>
+
+<!--    <string name="action_start">Начать</string>-->
+<!--    <string name="action_stop">Остановка</string>-->
+
+    <string name="vibration_time">Продолжительность вибрации: %1$d/%2$d</string>
+    <string name="wait_time">Вибрации тайм-аут: %1$d/%2$d</string>
+
+    <string name="randomness_rate">Показатель случайности: %1$d/%2$d</string>
+    <string name="simple_level_slower">Медленнее</string>
+    <string name="simple_level_middle">Средний</string>
+    <string name="simple_level_faster">Быстрее</string>
+
+
+    <string name="pr_randomness_rate_min">Ставка случайности мин</string>
+    <string name="pr_randomness_rate_max">Хаотичность максимальная скорость</string>
+
+    <string name="pr_mode_simple_min_level">Уровень мин</string>
+    <string name="pr_mode_simple_max_level">Максимальный уровень</string>
+
+    <string name="pr_mode_extended_timeout_max">Тайм-аут max</string>
+    <string name="pr_mode_extended_timeout_min">Время ожидания min</string>
+
+    <string name="pr_mode_extended_duration_min">Продолжительность min</string>
+    <string name="pr_mode_extended_duration_max">Продолжительность max</string>
+
+    <string name="check_vibration_settings">Проверьте настройки вибрации!</string>
+    <string name="error_not_have_vibrator">Устройство не имеет вибратор</string>
+
+
+
+    <string name="action_not_vibrate">Не вибрирует?</string>
+
+    <string name="vibration_bug_text">Вибрация может не работать, проверьте настройки</string>
+    <string name="vibration_bug_one">
+Нажмите на кнопку регулятор громкости звука +, убедитесь что звуки не выключены.
+В обычном режиме появляется окно там можно настраивать громкость и выбрацию,
+просто на верху окошка выбираешь пункт выбрация.
+
+Также может быть настройка в верхнем меню телефона.
+
+На крайний случай сбросьте настройки телефона до заводских.
+    </string>
+    <string name="correctly">Правильный режим (иконка)</string>
+</resources>

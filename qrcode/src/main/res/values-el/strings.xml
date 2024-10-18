@@ -1,0 +1,49 @@
+<resources>
+    <string name="please_wait">Παρακαλώ περιμένετε…</string>
+    <string name="action_generate">Δημιουργία</string>
+    <string name="action_history">Ιστορικό</string>
+    <string name="action_scan">Σάρωση</string>
+    <string name="toolbar_title_scan">Σαρωτής Κώδικα</string>
+    <string name="toolbar_title_history">Ιστορικό</string>
+    <string name="play_sound">Αναπαραγωγή Ήχου</string>
+    <string name="vibrate">Δόνηση</string>
+    <string name="save_history">Αποθήκευση Ιστορικού</string>
+    <string name="copy_to_clipboard">Αντιγραφή στο Πρόχειρο</string>
+    <string name="hint_enter_your_text">Εισαγάγετε το Κείμενό σας</string>
+    <string name="error_provide_proper_content_and_type">Παρακαλώ δώστε σωστές πληροφορίες πριν δημιουργήσετε κώδικα</string>
+    <string name="error_barcode_content_limit">Ο μήκος του περιεχομένου του Barcode πρέπει να είναι από 1 έως 80</string>
+    <string name="error_qrcode_content_limit">Ο μήκος του περιεχομένου του QR Code πρέπει να είναι από 1 έως 1000</string>
+    <string name="toolbar_title_generated_qr_code">Δημιουργημένος Κώδικας QR</string>
+    <string name="code_type">Τύπος: %s</string>
+    <string name="scanResultContent">Περιεχόμενο: %s</string>
+    <string name="saved_the_code_successfully">Ο κώδικας αποθηκεύτηκε επιτυχώς</string>
+    <string name="failed_to_save_the_code">Αποτυχία αποθήκευσης του κώδικα</string>
+    <string name="failed_to_share_the_code">Αποτυχία κοινοποίησης του κώδικα</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">Ο δημιουργημένος κώδικας υπάρχει ήδη στην τοπική αποθήκευση</string>
+    <string name="share_code_using">Κοινοποίηση κώδικα με χρήση…</string>
+    <string name="flash">Φλας</string>
+    <string name="scan_gallery">Σάρωση Συλλογής</string>
+    <string name="error_occured_while_scanning">Προέκυψε σφάλμα κατά τη σάρωση</string>
+    <string name="error_could_not_load_the_image">Δεν ήταν δυνατή η φόρτωση της εικόνας</string>
+    <string name="error_did_not_find_any_content">Δεν βρέθηκε περιεχόμενο. Δοκιμάστε ξανά με διαφορετική εικόνα</string>
+    <string name="toolbar_title_scan_result">Αποτέλεσμα Σάρωσης</string>
+    <string name="open_in_browser">Άνοιγμα στο πρόγραμμα περιήγησης</string>
+    <string name="created_time">Ώρα Δημιουργίας: %s</string>
+    <string name="scanned_qr_code_content">Περιεχόμενο Σαρωμένου Κώδικα QR</string>
+    <string name="copied_to_clipboard">Αντιγράφηκε στο Πρόχειρο</string>
+    <string name="code_scan">%s Σάρωση</string>
+    <string name="no_item">Το ιστορικό σάρωσης είναι κενό</string>
+    <string name="get_value">Λήψη τιμής</string>
+    <string name="toolbar_title_uploaded_image">Μεταφορτωμένη Εικόνα</string>
+    <string name="error_something_wrong">Κάτι πήγε στραβά</string>
+    <string name="action_delete">Διαγραφή</string>
+    <string name="this_permission_is_needed" translatable="false">Αυτή η άδεια είναι απαραίτητη</string>
+    <string name="permission_title_needed" translatable="false">Απαιτείται άδεια</string>
+    <string name="qrcodescan">Σάρωση QR Code</string>
+    <string name="jpg_viewer_not_installed">Ο Προβολέας JPG δεν είναι εγκατεστημένος</string>
+    <string name="file_saved">Το αρχείο αποθηκεύτηκε</string>
+    <string name="action_open">Άνοιγμα</string>
+    <string name="share_file">Κοινοποίηση Αρχείου</string>
+
+</resources>

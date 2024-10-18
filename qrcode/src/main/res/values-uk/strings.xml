@@ -1,0 +1,72 @@
+<resources>
+    <!--App Essentials-->
+    <string name="toolbar_title_generate">Створити QR/Bar-код</string>
+
+
+    <!--Essentials-->
+    <string name="please_wait">Будь ласка, зачекайте…</string>
+
+    <!--Home page-->
+    <string name="action_generate">Створити код</string>
+    <string name="action_history">Історія</string>
+    <string name="action_scan">Скан</string>
+
+    <string name="toolbar_title_scan">Сканер кодів</string>
+    <string name="toolbar_title_history">Історія сканування</string>
+
+    <!--Settings page-->
+    <string name="play_sound">Звуковий сигнал</string>
+    <string name="vibrate">Вібрація</string>
+    <string name="save_history">Зберегти історію</string>
+    <string name="copy_to_clipboard">Копіювати в буфер обміну</string>
+
+
+    <!--Generate page-->
+    <string name="hint_enter_your_text">Введіть текст</string>
+    <string name="error_provide_proper_content_and_type">Будь ласка, надайте правильну інформацію перед генерацією коду</string>
+    <string name="error_barcode_content_limit">Довжина штрих-коду має бути від 1 до 80</string>
+    <string name="error_qrcode_content_limit">Довжина вмісту QR-коду має бути від 1 до 1000</string>
+
+
+    <!--Generated QR Code page-->
+    <string name="toolbar_title_generated_qr_code">Згенерований QR-код</string>
+    <string name="code_type">Тип: %s</string>
+    <string name="scanResultContent">Вміст: %s</string>
+    <string name="saved_the_code_successfully">Збережено код успішно</string>
+    <string name="failed_to_save_the_code">не вдалося зберегти код</string>
+    <string name="failed_to_share_the_code">не вдалося поділитися кодом</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">Згенерований код вже існує в локальному сховищі</string>
+    <string name="share_code_using">Поділіться кодом, використовуючи…</string>
+
+    <!--Scan page-->
+    <string name="flash">Flash</string>
+    <string name="scan_gallery">Галерея</string>
+    <string name="error_occured_while_scanning">Сталася помилка під час сканування</string>
+    <string name="error_could_not_load_the_image">Не вдалося завантажити зображення</string>
+    <string name="error_did_not_find_any_content">Не знайдено жодного вмісту. Спробуйте ще раз з іншим зображенням</string>
+
+    <!--Scan result page-->
+    <string name="toolbar_title_scan_result">Результат сканування</string>
+    <string name="open_in_browser">Відкрити в браузері</string>
+    <string name="created_time">Час сканування: %s</string>
+    <string name="scanned_qr_code_content">Відсканований вміст QR-коду</string>
+    <string name="copied_to_clipboard">Скопійовано в буфер обміну</string>
+
+    <!--History page-->
+    <string name="code_scan">%s Сканування</string>
+    <string name="no_item">Історія сканування порожня</string>
+
+    <!--Picked image from gallery page-->
+    <string name="get_value">Отримати значення</string>
+    <string name="toolbar_title_uploaded_image">Завантажене зображення</string>
+
+    <string name="error_something_wrong">Щось пішло не так</string>
+    <string name="action_delete">Видалити</string>
+    <string name="qrcodescan">Сканування QR-коду</string>
+    <string name="jpg_viewer_not_installed">JPG-переглядач не встановлено</string>
+    <string name="file_saved">Файл збережено</string>
+    <string name="action_open">Відкрити</string>
+    <string name="share_file">Поділитися файлом</string>
+
+</resources>

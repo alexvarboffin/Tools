@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="GenericTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="GenericButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <!--Theme.MaterialComponents.Light.NoActionBar       real-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/GenericTextViewStyle</item>
+        <item name="buttonStyle">@style/GenericButtonStyle</item>
+
+
+        <!-- To change the popup menu and app text color  -->
+        <item name="android:textColor">@android:color/black</item>
+        <!-- To change the background of options menu-->
+<!--        <item name="android:itemBackground">@android:color/white</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+<!--        <item name="android:windowBackground">@color/windowBackground</item>-->
+    </style>
+
+    <style name="AppTheme.Launcher" parent="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+<!--        <item name="colorPrimary">@color/global_color_blue_primary</item>-->
+    </style>
+
+    <style name="AppTheme.GradientStatusBar" parent="AppTheme.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="lollipop">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent
+        </item>
+
+        <!--Overridden section-->
+        <item name="listPreferredItemHeightSmall">56dp</item>
+    </style>
+
+    <style name="AppTheme.FullScreen" parent="AppTheme.Launcher" />
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <color name="windowBackground">#FFFFFF</color>
+</resources>

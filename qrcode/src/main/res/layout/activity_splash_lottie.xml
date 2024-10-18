@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="false"
+
+        android:contentDescription="@null"
+        android:scaleType="centerCrop" />
+
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="120.0dp"-->
+    <!--        android:layout_height="120.0dp"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:contentDescription="@string/app_name"-->
+    <!--        android:src="@drawable/ic_launcher_web" />-->
+
+    <RelativeLayout
+        android:layout_width="326dp"
+        android:layout_height="446dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp">
+
+<!--        <pl.bclogic.pulsator4droid.library.PulsatorLayout-->
+<!--            android:id="@+id/pulsator"-->
+<!--            android:layout_width="326dp"-->
+<!--            android:layout_height="446dp"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+
+<!--            app:pulse_color="#C1E6E8"-->
+<!--            app:pulse_count="1"-->
+<!--            app:pulse_duration="1800"-->
+<!--            app:pulse_interpolator="Linear"-->
+<!--            app:pulse_repeat="1"-->
+<!--            app:pulse_startFromScratch="true">-->
+
+<!--        </pl.bclogic.pulsator4droid.library.PulsatorLayout>-->
+
+<!--        <com.airbnb.lottie.LottieAnimationView-->
+<!--            android:id="@+id/imgsplashicon"-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:contentDescription="@string/app_name"-->
+<!--            app:lottie_fileName="book.json"-->
+<!--            app:lottie_loop="true"-->
+<!--            app:lottie_autoPlay="true"/>-->
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/imgsplashicon"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            app:lottie_rawRes="@raw/rawanim"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="0dp"
+            android:gravity="center"
+            android:text="Loading..."
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_ver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Loading..." />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/timer"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:textAppearance="?android:attr/textAppearanceMedium"-->
+        <!--            android:textColor="@android:color/black" />-->
+
+    </LinearLayout>
+</RelativeLayout>

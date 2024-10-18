@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    //compileSdkVersion is set to at least 21
+    //min 21
+    //Theme.Material.NoActionBar
+    -->
+    <!--style name="AppTheme" parent="@android:style/">
+        <item name="colorPrimary">#ff0000</item>
+        <item name="colorPrimaryDark">#ff0000</item>
+        <item name="colorAccent">#FF4081</item>
+    </style-->
+</resources>

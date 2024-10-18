@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainMenuDefault"
+        android:icon="@drawable/make_default_active"
+        android:showAsAction="always"
+        android:title="Select">
+        <menu>
+            <item
+                android:id="@+id/mainMenuDefaultCall"
+                android:icon="@drawable/set_default_call_active"
+                android:title="Default for calls" />
+            <item
+                android:id="@+id/mainMenuDefaultSMS"
+                android:icon="@drawable/set_default_message_active"
+                android:title="Default for SMS" />
+            <item
+                android:id="@+id/mainMenuDefaultWhatsappText"
+                android:icon="@drawable/default_whatsapp_active"
+                android:title="Default for WhatsApp" />
+            <item
+                android:id="@+id/mainMenuDefaultViberText"
+                android:icon="@drawable/default_viber_active"
+                android:title="Default for Viber" />
+            <item
+                android:id="@+id/mainMenuDefaultSkypeText"
+                android:icon="@drawable/default_skype_active"
+                android:title="Default for Skype" />
+            <item
+                android:id="@+id/mainMenuDefaultGmailText"
+                android:icon="@drawable/default_gmail_active"
+                android:title="Default for Gmail" />
+            <item
+                android:id="@+id/mainMenuDefaultFacebookText"
+                android:icon="@drawable/default_fb_active"
+                android:title="Default for Facebook" />
+            <item
+                android:id="@+id/mainMenuDefaultFacebookMessengerText"
+                android:icon="@drawable/default_fbm_active"
+                android:title="Default for Facebook Messenger" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mainMenuFAQ"
+        android:icon="@drawable/faq_active"
+        android:showAsAction="ifRoom"
+        android:title="FAQ" />
+    <item
+        android:id="@+id/mainMenuSettings"
+        android:icon="@drawable/settings_active"
+        android:showAsAction="ifRoom"
+        android:title="Settings" />
+</menu>

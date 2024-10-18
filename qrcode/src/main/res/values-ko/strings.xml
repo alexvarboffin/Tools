@@ -1,0 +1,49 @@
+<resources>
+    <string name="please_wait">기다려주세요…</string>
+    <string name="action_generate">생성</string>
+    <string name="action_history">히스토리</string>
+    <string name="action_scan">스캔</string>
+    <string name="toolbar_title_scan">코드 스캐너</string>
+    <string name="toolbar_title_history">히스토리</string>
+    <string name="play_sound">사운드 재생</string>
+    <string name="vibrate">진동</string>
+    <string name="save_history">히스토리 저장</string>
+    <string name="copy_to_clipboard">클립보드에 복사</string>
+    <string name="hint_enter_your_text">텍스트 입력</string>
+    <string name="error_provide_proper_content_and_type">코드를 생성하기 전에 적절한 정보를 제공하십시오</string>
+    <string name="error_barcode_content_limit">바코드 내용의 길이는 1에서 80 사이여야 합니다</string>
+    <string name="error_qrcode_content_limit">QR 코드 내용의 길이는 1에서 1000 사이여야 합니다</string>
+    <string name="toolbar_title_generated_qr_code">생성된 QR 코드</string>
+    <string name="code_type">유형: %s</string>
+    <string name="scanResultContent">내용: %s</string>
+    <string name="saved_the_code_successfully">코드를 성공적으로 저장했습니다</string>
+    <string name="failed_to_save_the_code">코드를 저장하지 못했습니다</string>
+    <string name="failed_to_share_the_code">코드를 공유하지 못했습니다</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">로컬 저장소에 이미 생성된 코드가 있습니다</string>
+    <string name="share_code_using">코드 공유 중...</string>
+    <string name="flash">플래시</string>
+    <string name="scan_gallery">갤러리에서 스캔</string>
+    <string name="error_occured_while_scanning">스캔 중 오류가 발생했습니다</string>
+    <string name="error_could_not_load_the_image">이미지를 로드할 수 없습니다</string>
+    <string name="error_did_not_find_any_content">콘텐츠를 찾을 수 없습니다. 다른 이미지로 다시 시도하세요</string>
+    <string name="toolbar_title_scan_result">스캔 결과</string>
+    <string name="open_in_browser">브라우저에서 열기</string>
+    <string name="created_time">생성 시간: %s</string>
+    <string name="scanned_qr_code_content">스캔된 QR 코드 내용</string>
+    <string name="copied_to_clipboard">클립보드에 복사됨</string>
+    <string name="code_scan">%s 스캔</string>
+    <string name="no_item">스캔 기록이 비어 있습니다</string>
+    <string name="get_value">값 가져오기</string>
+    <string name="toolbar_title_uploaded_image">업로드된 이미지</string>
+    <string name="error_something_wrong">문제가 발생했습니다</string>
+    <string name="action_delete">삭제</string>
+    <string name="this_permission_is_needed" translatable="false">이 권한이 필요합니다</string>
+    <string name="permission_title_needed" translatable="false">필요한 권한</string>
+    <string name="qrcodescan">QR 코드 스캔</string>
+    <string name="jpg_viewer_not_installed">JPG 뷰어가 설치되지 않았습니다</string>
+    <string name="file_saved">파일 저장됨</string>
+    <string name="action_open">열기</string>
+    <string name="share_file">파일 공유</string>
+
+</resources>

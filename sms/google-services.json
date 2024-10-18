@@ -1,0 +1,139 @@
+{
+  "project_info": {
+    "project_number": "481962174898",
+    "firebase_url": "https://sms-regcom-client.firebaseio.com",
+    "project_id": "sms-regcom-client",
+    "storage_bucket": "sms-regcom-client.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481962174898:android:c552e4f49854b9e3",
+        "android_client_info": {
+          "package_name": "com.psyberia.sms_regcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481962174898-6fpnopdtpm60au4539qcdai5mv675gh4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psyberia.sms_regcom",
+            "certificate_hash": "78f142ed9f21a43b7d99b6b24387c2471e395ac0"
+          }
+        },
+        {
+          "client_id": "481962174898-fp2rsveiuvj5tglo7v578oseaisov012.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psyberia.sms_regcom",
+            "certificate_hash": "8903b591017b6f0cae0bbf55d7e5bd8e12e03aa9"
+          }
+        },
+        {
+          "client_id": "481962174898-djkc00c61bgq0hb5tkfc2eh90oueb6jh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psyberia.sms_regcom",
+            "certificate_hash": "4efbab08af930aa09d8d2a20e93b17465defd31a"
+          }
+        },
+        {
+          "client_id": "481962174898-ha4iug67805d15t5nlvv3q4fjj7ubhdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABC6gx25US6aoWpoh5bW9YREgqSTlqkRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481962174898-ha4iug67805d15t5nlvv3q4fjj7ubhdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-5111357348858303~7747268278"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481962174898:android:d3bf3ae7805618cd",
+        "android_client_info": {
+          "package_name": "com.psyberia.sms_regcom.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481962174898-vm18gg5gi5hrfot5hhvhchejgcsp03hb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psyberia.sms_regcom.pro",
+            "certificate_hash": "8903b591017b6f0cae0bbf55d7e5bd8e12e03aa9"
+          }
+        },
+        {
+          "client_id": "481962174898-ha4iug67805d15t5nlvv3q4fjj7ubhdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABC6gx25US6aoWpoh5bW9YREgqSTlqkRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481962174898-ha4iug67805d15t5nlvv3q4fjj7ubhdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481962174898:android:3af426184388828d",
+        "android_client_info": {
+          "package_name": "com.walhalla.smsregclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "481962174898-966dcsil6vn75up35vqlpj2s3etuqbre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walhalla.smsregclient",
+            "certificate_hash": "bc2388bfe19be7212211b95e2d2b7abbf0a735e8"
+          }
+        },
+        {
+          "client_id": "481962174898-ha4iug67805d15t5nlvv3q4fjj7ubhdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABC6gx25US6aoWpoh5bW9YREgqSTlqkRg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "481962174898-ha4iug67805d15t5nlvv3q4fjj7ubhdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

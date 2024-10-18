@@ -1,0 +1,5 @@
+Spirit Level Tool (Bubble)
+
+
+Vibedroid
+@targetSdkVersion 34 соответствует Android 14 (API Level 34),

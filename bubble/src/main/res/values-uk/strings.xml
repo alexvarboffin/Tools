@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Колір бульбашки</string>
+    <string name="abc_bubbleSensitivity">Чутливість бульбашки</string>
+    <string name="abc_calibrate">Калібрувати</string>
+    <string name="abc_calibrateText">Помістіть ваш пристрій догори дном на рівну і плоску поверхню (наприклад, підлогу у вашій кімнаті) і натисніть КАЛІБРУВАТИ. Для скидання до заводських налаштувань натисніть ВІДНОВИТИ.</string>
+    <string name="abc_calibration_finished">Калібрування завершено</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">Колір рідини</string>
+    <string name="abc_moreApps">Більше додатків</string>
+    <string name="abc_pause">Пауза або продовжити</string>
+    <string name="abc_permission_explanation">Необхідний дозвіл на камеру для відображення візуальної інформації на екрані</string>
+    <string name="abc_precision">Точність</string>
+    <string name="abc_remove_ads">Прибрати рекламу та підтримати цей проект</string>
+    <string name="abc_restore">Відновити</string>
+    <string name="abc_restore_settings">Відновити початкові налаштування</string>
+    <string name="abc_save_settings">Зберегти</string>
+    <string name="abc_settings">Налаштування</string>
+    <string name="abc_settings_saved">Налаштування збережено</string>
+    <string name="abc_share">Поділитися з…</string>
+    <string name="abc_showSign">Показати негативний знак</string>
+    <string name="abc_start">Почати</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><resources>
+<!--    <string name="app_name">Розслабся Вібрації</string>-->
+    <string name="mode_random">Random\nMode</string>
+    <string name="mode_simple">Simple\nMode</string>
+    <string name="mode_manual">Ex.\nMode</string>
+
+    <string name="title_mode_random">Випадковий Режим</string>
+    <string name="title_mode_simple">Простий Режим</string>
+    <string name="title_mode_manual">Розширений Режим</string>
+
+<!--    <string name="action_start">Почати</string>-->
+<!--    <string name="action_stop">Зупинка</string>-->
+
+    <string name="vibration_time">Тривалість вібрації: %1$d/%2$d</string>
+    <string name="wait_time">Вібрації тайм-аут: %1$d/%2$d</string>
+
+    <string name="randomness_rate">Показник випадковості: %1$d/%2$d</string>
+    <string name="simple_level_slower">Повільніше</string>
+    <string name="simple_level_middle">Середній</string>
+    <string name="simple_level_faster">Швидше</string>
+
+
+    <string name="pr_randomness_rate_min">Ставка випадковості</string>
+    <string name="pr_randomness_rate_max">Хаотичність максимальна швидкість</string>
+
+    <string name="pr_mode_simple_min_level">Рівень</string>
+    <string name="pr_mode_simple_max_level">Максимальний рівень</string>
+
+    <string name="pr_mode_extended_timeout_max">Тайм-аут Макс</string>
+    <string name="pr_mode_extended_timeout_min">Час очікування</string>
+
+    <string name="pr_mode_extended_duration_min">Тривалість</string>
+    <string name="pr_mode_extended_duration_max">Тривалість максимум</string>
+
+    <string name="check_vibration_settings">Перевірте налаштування вібрації!</string>
+    <string name="error_not_have_vibrator">У пристрої немає вібратора</string>
+
+
+    <string name="action_not_vibrate">не вібрує?</string>
+
+    <string name="vibration_bug_text">Вібрація може не працювати, перевірте налаштування</string>
+    <string name="vibration_bug_one">
+Натисніть на кнопку регулятор гучності звуку +, переконайтеся що звуки не вимикаючи.
+
+У звичайному режимі з\'являється вікно там можна налаштовувати гучність і вибрацію,
+просто на верху віконця вибираєш пункт вибрація.
+
+Також може бути настройка в верхньому меню телефону.
+
+На крайній випадок скиньте настройки телефону до заводських.
+    </string>
+    <string name="correctly">Правильно</string>
+</resources>

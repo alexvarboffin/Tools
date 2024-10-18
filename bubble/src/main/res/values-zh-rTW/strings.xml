@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">氣泡顏色</string>
+    <string name="abc_bubbleSensitivity">氣泡敏感度</string>
+    <string name="abc_calibrate">校準</string>
+    <string name="abc_calibrateText">將您的設備放置在一個水平且平坦的表面上（例如您的房間地板），並按下“校準”按鈕。要重置為出廠校準，請按“恢復”按鈕。</string>
+    <string name="abc_calibration_finished">校準完成</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">液體顏色</string>
+    <string name="abc_moreApps">更多應用程式</string>
+    <string name="abc_pause">暫停或繼續</string>
+    <string name="abc_permission_explanation">需要相機權限以顯示屏幕上的視覺信息</string>
+    <string name="abc_precision">精度</string>
+    <string name="abc_remove_ads">移除廣告並支持此項目</string>
+    <string name="abc_restore">恢復</string>
+    <string name="abc_restore_settings">恢復初始設置</string>
+    <string name="abc_save_settings">保存</string>
+    <string name="abc_settings">設置</string>
+    <string name="abc_settings_saved">設置已保存</string>
+    <string name="abc_share">分享至…</string>
+    <string name="abc_showSign">顯示負號</string>
+    <string name="abc_start">開始</string>
+</resources>

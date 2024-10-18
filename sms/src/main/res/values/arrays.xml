@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--vsim-get-->
+    <!--ru — номер российских операторов;-->
+    <!--ua — номер украинских операторов;-->
+    <!--gb — номер операторов Великобритании;-->
+    <!--bg — номер операторов Болгарии;-->
+    <!--pl — номер операторов Польши;-->
+    <!--hk — номер операторов Китая (Гонконг);-->
+    <!--— отсутствие параметра аналогично значению "ru".-->
+
+    <string-array name="vsim_country_names">
+        <item>Номер российских операторов</item>
+        <item>Номер украинских операторов</item>
+        <item>Номер операторов Великобритании</item>
+        <item>Номер операторов Болгарии</item>
+        <item>Номер операторов Польши</item>
+        <item>Оператор Китая (Гонконг)</item>
+    </string-array>
+
+    <string-array name="vsim_country_codes">
+        <item>ru</item>
+        <item>ua</item>
+        <item>gb</item>
+        <item>bg</item>
+        <item>pl</item>
+        <item>hk</item>
+    </string-array>
+
+    <!--Определяет период времени на который заказывается аренда номера. Принимает одно из значений:-->
+    <!--3hours — аренда номера на 3 часа;-->
+    <!--day — аренда номера на сутки;-->
+    <!--week — аренда номера на неделю;-->
+
+
+    <string-array name="vsim_period_code">
+        <item>3hours</item>
+        <item>day</item>
+        <item>week</item>
+    </string-array>
+
+    <string-array name="vsim_period_name">
+        <item>Аренда номера на 3 часа</item>
+        <item>Аренда номера на сутки</item>
+        <item>Аренда номера на неделю</item>
+    </string-array>
+
+
+    <!-- Order is important here: -->
+    <string-array name="country_names">
+        <item>любой свободный номер мобильного телефона</item>
+        <item>номер российских операторов</item>
+        <item>номер украинских операторов</item>
+        <item>Москва и московская область</item>
+        <item>Санкт-Петербург и Ленинградская область</item>
+    </string-array>
+
+    <string-array name="country_codes">
+        <item>all</item>
+        <item>ru</item>
+        <item>ua</item>
+        <item>RU-MOS</item>
+        <item>RU-LEN</item>
+    </string-array>
+
+    <string-array name="country_flags">
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+    </string-array>
+
+    <string-array name="service_codes">
+        <item>youla</item>
+        <item>gmail</item>
+        <item>facebook</item>
+        <item>mailru</item>
+        <item>vk</item>
+        <item>classmates</item>
+        <item>twitter</item>
+        <item>mamba</item>
+        <item>uber</item>
+        <item>telegram</item>
+        <item>badoo</item>
+        <item>drugvokrug</item>
+        <item>avito</item>
+        <item>olx</item>
+        <item>steam</item>
+        <item>fotostrana</item>
+        <item>microsoft</item>
+        <item>viber</item>
+        <item>whatsapp</item>
+        <item>wechat</item>
+        <item>seosprint</item>
+        <item>instagram</item>
+        <item>yahoo</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="service_names">
+        <item>youla.io</item>
+        <item>Gmail.com</item>
+        <item>Facebook.com</item>
+        <item>Mail.ru</item>
+        <item>Вконтакте</item>
+        <item>Одноклассники</item>
+        <item>Twitter</item>
+        <item>Мамба</item>
+        <item>Uber</item>
+        <item>telegram.org</item>
+        <item>Badoo</item>
+        <item>другвокруг</item>
+        <item>avito.ru</item>
+        <item>OLX</item>
+        <item>STEAM</item>
+        <item>Фотострана.ру</item>
+        <item>Microsoft</item>
+        <item>Viber</item>
+        <item>whatsapp</item>
+        <item>wechat.com</item>
+        <item>SEOsprint.net</item>
+        <item>Instagram</item>
+        <item>Yahoo</item>
+        <item>сервиса, которого нету в списке выше</item>
+    </string-array>
+
+    <string-array name="service_flags">
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_sms</item>
+    </string-array>
+
+    <string-array name="err_get_num_repeat">
+        <item>Повтор по указанной операции невозможен</item>
+        <item>Запрос выполнен успешно</item>
+        <item>Номер оффлайн, используйте метод getNumRepeatOffline</item>
+        <item>Этот номер сейчас занят. Попробуйте позже</item>
+    </string-array>
+
+    <integer-array name="tab_icons">
+        <item>@drawable/ic_completed</item>
+        <item>@drawable/ic_active</item>
+        <item>@drawable/ic_active</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">VIBE Droid</string>
+    <!--    <string name="app_name">Relax Vibration</string>-->
+
+
+    <string name="mode_random">Random\nMode</string>
+    <string name="mode_simple">Simple\nMode</string>
+    <string name="mode_manual">Ex.\nMode</string>
+
+    <string name="title_mode_random">Random Mode</string>
+    <string name="title_mode_simple">Simple Mode</string>
+    <string name="title_mode_manual">Extended Mode</string>
+
+    <string name="action_start">Start</string>
+    <string name="vibration_time">Vibration duration: %1$d/%2$d</string>
+    <string name="wait_time">Vibration timeout: %1$d/%2$d</string>
+    <string name="action_stop">Stop</string>
+    <string name="randomness_rate">Randomness rate: %1$d/%2$d</string>
+
+    <string name="simple_level_slower">Slower</string>
+    <string name="simple_level_middle">Middle</string>
+    <string name="simple_level_faster">Faster</string>
+
+
+    <string name="pr_randomness_rate_min">Randomness rate min</string>
+    <string name="pr_randomness_rate_max">Randomness rate max</string>
+
+    <string name="pr_mode_simple_min_level">Min level</string>
+    <string name="pr_mode_simple_max_level">Max level</string>
+
+    <string name="pr_mode_extended_timeout_max">Timeout max</string>
+    <string name="pr_mode_extended_timeout_min">Timeout min</string>
+
+    <string name="pr_mode_extended_duration_min">Duration min</string>
+    <string name="pr_mode_extended_duration_max">Duration max</string>
+
+    <string name="check_vibration_settings">Check vibration settings!</string>
+    <string name="error_not_have_vibrator">The device does not have a Vibrator</string>
+
+
+    <string name="action_not_vibrate">Doesn\'t vibrate?</string>
+
+    <string name="vibration_bug_text">Vibration may not work, check settings</string>
+    <string name="vibration_bug_one">
+Press the volume control + button, make sure that the sounds are not turned off.
+In normal mode, a window appears where you can adjust the volume and selection,
+just at the top of the window, select the selection item.
+
+There may also be a setting in the top menu of the phone.
+
+In extreme cases, reset the phone to factory settings.
+    </string>
+    <string name="correctly">Correctly mode icon</string>
+</resources>

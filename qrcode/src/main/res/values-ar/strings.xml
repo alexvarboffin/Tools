@@ -1,0 +1,49 @@
+<resources>
+    <string name="please_wait">يرجى الانتظار…</string>
+    <string name="action_generate">إنشاء</string>
+    <string name="action_history">التاريخ</string>
+    <string name="action_scan">فحص</string>
+    <string name="toolbar_title_scan">ماسح الرموز</string>
+    <string name="toolbar_title_history">التاريخ</string>
+    <string name="play_sound">تشغيل الصوت</string>
+    <string name="vibrate">اهتزاز</string>
+    <string name="save_history">حفظ التاريخ</string>
+    <string name="copy_to_clipboard">نسخ إلى الحافظة</string>
+    <string name="hint_enter_your_text">أدخل نصك</string>
+    <string name="error_provide_proper_content_and_type">يرجى تقديم معلومات صحيحة قبل إنشاء الرمز</string>
+    <string name="error_barcode_content_limit">يجب أن يكون طول محتوى الرمز الشريطي بين 1 و 80</string>
+    <string name="error_qrcode_content_limit">يجب أن يكون طول محتوى رمز الاستجابة السريعة بين 1 و 1000</string>
+    <string name="toolbar_title_generated_qr_code">رمز الاستجابة السريعة المولد</string>
+    <string name="code_type">النوع: %s</string>
+    <string name="scanResultContent">المحتوى: %s</string>
+    <string name="saved_the_code_successfully">تم حفظ الرمز بنجاح</string>
+    <string name="failed_to_save_the_code">فشل في حفظ الرمز</string>
+    <string name="failed_to_share_the_code">فشل في مشاركة الرمز</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">الرمز المولد موجود بالفعل في التخزين المحلي</string>
+    <string name="share_code_using">مشاركة الرمز باستخدام…</string>
+    <string name="flash">وميض</string>
+    <string name="scan_gallery">معرض المسح</string>
+    <string name="error_occured_while_scanning">حدث خطأ أثناء المسح</string>
+    <string name="error_could_not_load_the_image">تعذر تحميل الصورة</string>
+    <string name="error_did_not_find_any_content">لم يتم العثور على أي محتوى. حاول مرة أخرى بصورة مختلفة</string>
+    <string name="toolbar_title_scan_result">نتيجة المسح</string>
+    <string name="open_in_browser">فتح في المتصفح</string>
+    <string name="created_time">وقت الإنشاء: %s</string>
+    <string name="scanned_qr_code_content">محتوى رمز الاستجابة السريعة الممسوح</string>
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="code_scan">%s مسح</string>
+    <string name="no_item">تاريخ المسح فارغ</string>
+    <string name="get_value">الحصول على القيمة</string>
+    <string name="toolbar_title_uploaded_image">صورة مرفوعة</string>
+    <string name="error_something_wrong">حدث خطأ ما</string>
+    <string name="action_delete">حذف</string>
+    <string name="this_permission_is_needed" translatable="false">هذه الإذن مطلوبة</string>
+    <string name="permission_title_needed" translatable="false">الإذن مطلوب</string>
+    <string name="qrcodescan">مسح رموز الاستجابة السريعة</string>
+    <string name="jpg_viewer_not_installed">غير مثبت عارض JPG</string>
+    <string name="file_saved">تم حفظ الملف</string>
+    <string name="action_open">فتح</string>
+    <string name="share_file">مشاركة الملف</string>
+
+</resources>

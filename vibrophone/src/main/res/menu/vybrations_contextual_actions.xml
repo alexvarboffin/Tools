@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/vybrations_menu">
+    <item android:icon="@drawable/load_vibration_active" android:id="@+id/vybrationMenuLoadVybration" android:title="Load vybration"/>
+    <item android:icon="@drawable/delete_vib_active" android:id="@+id/vybrationMenuDeleteVybration" android:title="Delete vybration"/>
+    <item android:icon="@drawable/menu_active" android:id="@+id/vybrationMenuSelect" android:title="Select">
+        <menu>
+            <item android:icon="@drawable/select_all_active" android:id="@+id/vybrationMenuSelectAll" android:title="Select all"/>
+            <item android:icon="@drawable/select_inverse_active" android:id="@+id/vybrationMenuSelectInverse" android:title="Select inverse"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6d0094</color>
+
+    <color name="colorPrimaryDark">#6d0094</color>
+    <color name="colorAccent">#ff2068</color>
+    <color name="textViewBackground">#F4F4F4</color>
+
+    <color name="projectGreen00">#6d0094</color>
+
+    <color name="bottom_bar_normal">#00B8DB</color>
+    <color name="bottom_bar_selected">#00CBC3</color>
+
+    <color name="sectionSeparator">#E3E3E3</color>
+
+    <color name="disabled_gradient_start">#7CE1DF</color>
+    <color name="disabled_gradient_end">#7CCFF7</color>
+
+    <color name="text_subtitle">#8D8D8D</color>
+    <color name="text_regular">#000000</color>
+    <color name="text_hint">#8D8D8D</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_70_percent">#B2ffffff</color>
+
+    <color name="black_0_percent">#00000000</color>
+    <color name="black_10_percent">#1A000000</color>
+    <color name="black_20_percent">#33000000</color>
+    <color name="black_55_percent">#8D000000</color>
+    <color name="black_60_percent">#8A000000</color>
+    <color name="black_70_percent">#B3000000</color>
+    <color name="black">#000000</color>
+
+    <color name="shadow">#d0d8dc</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorTextPrimary">#524E4E</color>
+
+    <color name="colorGradientStart">#66FFFFFF</color>
+    <color name="colorGradientEnd">#d9d9d9</color>
+    <color name="eee">#FFD600</color>
+</resources>

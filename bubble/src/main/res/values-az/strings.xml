@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Qabarcağın rəngi</string>
+    <string name="abc_bubbleSensitivity">Qabarcağın həssaslığı</string>
+    <string name="abc_calibrate">Kalibrə et</string>
+    <string name="abc_calibrateText">Cihazınızı üzü yuxarı, düz və səviyyəli bir səthə (məsələn, otağınızın döşəməsinə) qoyun və KALİBRƏ ET düyməsinə basın. Zavod kalibrəsinə qayıtmaq üçün BƏRPA ET düyməsinə basın.</string>
+    <string name="abc_calibration_finished">Kalibrə tamamlandı</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">Mayenin rəngi</string>
+    <string name="abc_moreApps">Daha çox tətbiq</string>
+    <string name="abc_pause">Dayandır və ya davam et</string>
+    <string name="abc_permission_explanation">Ekranda vizual məlumatı göstərmək üçün kamera icazəsi tələb olunur</string>
+    <string name="abc_precision">Dəqiqlik</string>
+    <string name="abc_remove_ads">Reklamları sil və bu layihəni dəstəklə</string>
+    <string name="abc_restore">Bərpa et</string>
+    <string name="abc_restore_settings">Başlanğıc ayarlarını bərpa et</string>
+    <string name="abc_save_settings">Yadda saxla</string>
+    <string name="abc_settings">Ayarlar</string>
+    <string name="abc_settings_saved">Ayarlar yadda saxlanıldı</string>
+    <string name="abc_share">…ilə paylaş</string>
+    <string name="abc_showSign">Mənfi işarəni göstər</string>
+    <string name="abc_start">Başla</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+
+<!--    <color name="colorPrimary">#d32f2f</color>-->
+<!--    <color name="colorPrimaryDark">#c72c2c</color>-->
+
+
+
+    <color name="colorAccent">#FF0000</color>
+
+
+    <color name="primaryLightColor">#484848</color>
+
+    <color name="secondaryColor">#d50000</color>
+    <color name="secondaryLightColor">#ff5131</color>
+    <color name="secondaryDarkColor">#9b0000</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+    <color name="colorAccent__">#FF4081</color>
+
+
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#262627</color>
+
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+
+    <color name="bg_circle_default">#666666</color>
+    <color name="bg_circle_red">#f50057</color>
+
+    <color name="success_green">#5cb85c</color>
+    <color name="danger_red">#d9534f</color>
+
+    <color name="bg_action_mode">#757575</color>
+    <!-- wa -->
+    <color name="btn_disabled">#ffc3c3c3</color>
+    <color name="btn_green_pressed">#ff1aa94c</color>
+    <color name="btn_green_registration">@color/success_green</color>
+</resources>

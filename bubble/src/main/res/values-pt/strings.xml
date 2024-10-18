@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Cor da Bolha</string>
+    <string name="abc_bubbleSensitivity">Sensibilidade da Bolha</string>
+    <string name="abc_calibrate">Calibrar</string>
+    <string name="abc_calibrateText">Coloque o seu dispositivo voltado para cima em uma superfície nivelada e plana (por exemplo, o chão do seu quarto) e pressione CALIBRAR. Para redefinir a calibração de fábrica, pressione RESTAURAR.</string>
+    <string name="abc_calibration_finished">Calibração concluída</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">Cor do Líquido</string>
+    <string name="abc_moreApps">Mais aplicativos</string>
+    <string name="abc_pause">Pausar ou continuar</string>
+    <string name="abc_permission_explanation">É necessário permissão da câmera para exibir informações visuais na tela</string>
+    <string name="abc_precision">Precisão</string>
+    <string name="abc_remove_ads">Remover anúncios e apoiar este projeto</string>
+    <string name="abc_restore">Restaurar</string>
+    <string name="abc_restore_settings">Restaurar configurações iniciais</string>
+    <string name="abc_save_settings">Salvar</string>
+    <string name="abc_settings">Configurações</string>
+    <string name="abc_settings_saved">Configurações salvas</string>
+    <string name="abc_share">Compartilhar com…</string>
+    <string name="abc_showSign">Mostrar sinal negativo</string>
+    <string name="abc_start">Iniciar</string>
+</resources>

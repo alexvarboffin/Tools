@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">버블 색상</string>
+    <string name="abc_bubbleSensitivity">버블 민감도</string>
+    <string name="abc_calibrate">보정</string>
+    <string name="abc_calibrateText">기기를 수평이고 평평한 표면(예: 방 바닥)에 놓고 CALIBRATE(보정)를 누르세요. 공장 출하 상태로 재설정하려면 RESTORE(복원)를 누르세요.</string>
+    <string name="abc_calibration_finished">보정 완료</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">액체 색상</string>
+    <string name="abc_moreApps">더 많은 앱</string>
+    <string name="abc_pause">일시 정지 또는 계속</string>
+    <string name="abc_permission_explanation">화면에 시각 정보를 표시하려면 카메라 권한이 필요합니다</string>
+    <string name="abc_precision">정밀도</string>
+    <string name="abc_remove_ads">광고 제거 및 프로젝트 지원</string>
+    <string name="abc_restore">복원</string>
+    <string name="abc_restore_settings">초기 설정 복원</string>
+    <string name="abc_save_settings">저장</string>
+    <string name="abc_settings">설정</string>
+    <string name="abc_settings_saved">설정 저장됨</string>
+    <string name="abc_share">공유하기…</string>
+    <string name="abc_showSign">부호 표시</string>
+    <string name="abc_start">시작</string>
+</resources>

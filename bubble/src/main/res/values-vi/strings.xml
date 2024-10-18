@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Màu Bong Bóng</string>
+    <string name="abc_bubbleSensitivity">Độ Nhạy Bong Bóng</string>
+    <string name="abc_calibrate">Hiệu Chỉnh</string>
+    <string name="abc_calibrateText">Đặt thiết bị của bạn sao cho hướng lên trên trên một bề mặt phẳng và cấp bằng (ví dụ như sàn phòng của bạn) và nhấn HIỆU CHỈNH. Để đặt lại hiệu chỉnh về cài đặt gốc, nhấn KHÔI PHỤC.</string>
+    <string name="abc_calibration_finished">Hoàn tất hiệu chỉnh</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">Màu Chất Lỏng</string>
+    <string name="abc_moreApps">Nhiều ứng dụng hơn</string>
+    <string name="abc_pause">Tạm dừng hoặc tiếp tục</string>
+    <string name="abc_permission_explanation">Cần quyền truy cập camera để hiển thị thông tin hình ảnh trên màn hình</string>
+    <string name="abc_precision">Độ Chính Xác</string>
+    <string name="abc_remove_ads">Gỡ bỏ quảng cáo và hỗ trợ dự án này</string>
+    <string name="abc_restore">Khôi phục</string>
+    <string name="abc_restore_settings">Khôi phục cài đặt ban đầu</string>
+    <string name="abc_save_settings">Lưu</string>
+    <string name="abc_settings">Cài đặt</string>
+    <string name="abc_settings_saved">Cài đặt đã được lưu</string>
+    <string name="abc_share">Chia sẻ với…</string>
+    <string name="abc_showSign">Hiển thị dấu âm</string>
+    <string name="abc_start">Bắt đầu</string>
+</resources>

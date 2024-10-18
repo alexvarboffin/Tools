@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/contactsListMenuSearch"
+        android:actionLayout="@layout/collapsible_edittext"
+        android:icon="@drawable/search_active"
+        android:showAsAction="never|always|collapseActionView"
+        android:title="Search contacts" />
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Farba bubliny</string>
+    <string name="abc_bubbleSensitivity">Citlivosť bubliny</string>
+    <string name="abc_calibrate">Kalibrovať</string>
+    <string name="abc_calibrateText">Umiestnite svoje zariadenie smerom nahor na rovný a plochý povrch (napr. podlahu vo vašej izbe) a stlačte KALIBROVAŤ. Na obnovenie továrenskej kalibrácie stlačte OBNOVIŤ.</string>
+    <string name="abc_calibration_finished">Kalibrácia dokončená</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">Farba kvapaliny</string>
+    <string name="abc_moreApps">Viac aplikácií</string>
+    <string name="abc_pause">Pozastaviť alebo pokračovať</string>
+    <string name="abc_permission_explanation">Je potrebné povolenie kamery na zobrazenie vizuálnych informácií na obrazovke</string>
+    <string name="abc_precision">Presnosť</string>
+    <string name="abc_remove_ads">Odstrániť reklamy a podporiť tento projekt</string>
+    <string name="abc_restore">Obnoviť</string>
+    <string name="abc_restore_settings">Obnoviť pôvodné nastavenia</string>
+    <string name="abc_save_settings">Uložiť</string>
+    <string name="abc_settings">Nastavenia</string>
+    <string name="abc_settings_saved">Nastavenia uložené</string>
+    <string name="abc_share">Zdieľať s…</string>
+    <string name="abc_showSign">Zobraziť záporné znamienko</string>
+    <string name="abc_start">Štart</string>
+</resources>

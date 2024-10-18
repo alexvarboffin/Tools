@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">バブルカラー</string>
+    <string name="abc_bubbleSensitivity">バブル感度</string>
+    <string name="abc_calibrate">キャリブレーション</string>
+    <string name="abc_calibrateText">デバイスを水平で平らな面（例：部屋の床）に向け、CALIBRATE（キャリブレーション）を押してください。工場出荷時のキャリブレーションにリセットするには、RESTORE（リストア）を押してください。</string>
+    <string name="abc_calibration_finished">キャリブレーションが完了しました</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">液体カラー</string>
+    <string name="abc_moreApps">アプリの詳細</string>
+    <string name="abc_pause">一時停止または再開</string>
+    <string name="abc_permission_explanation">画面に視覚情報を表示するには、カメラの権限が必要です</string>
+    <string name="abc_precision">精度</string>
+    <string name="abc_remove_ads">広告を削除し、このプロジェクトをサポートする</string>
+    <string name="abc_restore">リストア</string>
+    <string name="abc_restore_settings">初期設定にリストア</string>
+    <string name="abc_save_settings">保存</string>
+    <string name="abc_settings">設定</string>
+    <string name="abc_settings_saved">設定が保存されました</string>
+    <string name="abc_share">共有する…</string>
+    <string name="abc_showSign">負の符号を表示</string>
+    <string name="abc_start">開始</string>
+</resources>

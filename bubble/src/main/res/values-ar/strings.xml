@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">لون الفقاعة</string>
+    <string name="abc_bubbleSensitivity">حساسية الفقاعة</string>
+    <string name="abc_calibrate">معايرة</string>
+    <string name="abc_calibrateText">ضع جهازك متجهًا لأعلى على سطح مستوٍ ومسطح (مثل أرضية غرفتك) واضغط على معايرة. لإعادة المعايرة إلى الإعدادات الأصلية اضغط على استعادة.</string>
+    <string name="abc_calibration_finished">اكتملت المعايرة</string>
+
+    <string name="abc_cero_degrees">-00.00º</string>
+    <string name="abc_liquidColor">لون السائل</string>
+    <string name="abc_moreApps">المزيد من التطبيقات</string>
+    <string name="abc_pause">إيقاف مؤقت أو متابعة</string>
+    <string name="abc_permission_explanation">يتطلب إذن الكاميرا لعرض المعلومات المرئية على الشاشة</string>
+    <string name="abc_precision">الدقة</string>
+    <string name="abc_remove_ads">إزالة الإعلانات ودعم هذا المشروع</string>
+    <string name="abc_restore">استعادة</string>
+    <string name="abc_restore_settings">استعادة الإعدادات الأصلية</string>
+    <string name="abc_save_settings">حفظ</string>
+    <string name="abc_settings">الإعدادات</string>
+    <string name="abc_settings_saved">تم حفظ الإعدادات</string>
+    <string name="abc_share">مشاركة مع…</string>
+    <string name="abc_showSign">عرض الإشارة السالبة</string>
+    <string name="abc_start">بدء</string>
+</resources>

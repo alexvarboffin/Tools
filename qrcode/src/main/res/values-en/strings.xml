@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="toolbar_title_generate">Generate QR Code</string>
+    <!--Essentials-->
+    <string name="please_wait">Please Wait…</string>
+
+    <!--Home page-->
+    <string name="action_generate">Generate</string>
+    <string name="action_history">History</string>
+    <string name="action_scan">Scan</string>
+
+    <string name="toolbar_title_scan">Code Scanner</string>
+    <string name="toolbar_title_history">History</string>
+
+    <!--Settings page-->
+    <string name="play_sound">Play Sound</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="save_history">Save History</string>
+    <string name="copy_to_clipboard">Copy to Clipboard</string>
+
+
+    <!--Generate page-->
+    <string name="hint_enter_your_text">Enter Your Text</string>
+    <string name="error_provide_proper_content_and_type">Please provide proper information before generating code</string>
+    <string name="error_barcode_content_limit">Barcode contents length should be between 1 and 80</string>
+    <string name="error_qrcode_content_limit">QR Code contents length should be between 1 and 1000</string>
+
+
+    <!--Generated QR Code page-->
+    <string name="toolbar_title_generated_qr_code">Generated QR Code</string>
+    <string name="code_type">Type: %s</string>
+    <string name="scanResultContent">Content: %s</string>
+    <string name="saved_the_code_successfully">Saved the code successfully</string>
+    <string name="failed_to_save_the_code">failed to save the code</string>
+    <string name="failed_to_share_the_code">failed to share the code</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">Generated code already exists in the local storage</string>
+    <string name="share_code_using">Share code using…</string>
+
+    <!--Scan page-->
+    <string name="flash">Flash</string>
+    <string name="scan_gallery">Scan Gallery</string>
+    <string name="error_occured_while_scanning">Error occurred while scanning</string>
+    <string name="error_could_not_load_the_image">Could not load the image</string>
+    <string name="error_did_not_find_any_content">Did not find any content. Try again with different image</string>
+
+    <!--Scan result page-->
+    <string name="toolbar_title_scan_result">Scan Result</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="created_time">Created Time: %s</string>
+    <string name="scanned_qr_code_content">Scanned QR code content</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+
+    <!--History page-->
+    <string name="code_scan">%s Scan</string>
+    <string name="no_item">Scan history is empty</string>
+
+    <!--Picked image from gallery page-->
+    <string name="get_value">Get value</string>
+    <string name="toolbar_title_uploaded_image">Uploaded Image</string>
+
+    <string name="error_something_wrong">Something went wrong</string>
+    <string name="action_delete">Delete</string>
+    <string name="qrcodescan">QR Code Scan</string>
+    <string name="jpg_viewer_not_installed">JPG Viewer Not Installed</string>
+    <string name="file_saved">File Saved</string>
+    <string name="action_open">Open</string>
+    <string name="share_file">Share File</string>
+</resources>

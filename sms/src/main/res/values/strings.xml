@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name" translatable="false">Sms-reg.com Unofficial Client</string>
+
+    <string name="err_msg_key">Enter access key</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+
+    <string name="network_adapters">Network Adapters</string>
+    <string name="bin_commands">Bin Commands</string>
+    <string name="title_activity_driver">DriverActivity</string>
+    <string name="ACCOUNT_TYPE">com.viber.voip</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="no_data_available">No data available</string>
+
+    <string name="title_operations">Operations</string>
+    <string name="title_balance">Balance</string>
+    <string name="title_set_rate">Set Rate</string>
+    <string name="title_get_num">Virtual number</string>
+    <string name="title_order_add">Order Add</string>
+
+    <string name="scr_order_add_btn">Create New Order</string>
+    <string name="scr_order_add_city_hint">City List</string>
+    <string name="scr_order_add_city_tv">City (or a data of cities separated by commas) that you want to be specified when registering accounts.</string>
+    <string name="scr_order_add_gender_tv">The gender that you want to be specified when registering accounts.</string>
+    <string name="scr_order_add_age_hint">The age you want to be specified when registering accounts</string>
+
+    <string name="scr_order_add_name_tv">A comma-separated data of first names (first and last names) that you want to be used when registering accounts. Maximum 100 characters</string>
+    <string name="scr_order_add_count_hint">Number of accounts:</string>
+    <string name="scr_order_add_country_tv">Country ID to get the number.</string>
+    <string name="scr_order_add_service_tv">Site (service) from which SMS will be expected and displayed</string>
+
+    <string name="scr_order_add_options_text">Extra options</string>
+    <string name="scr_order_add_name_hint">Names</string>
+    <string name="btn_action_set_ready">Get SMS…</string>
+
+    <string name="btn_action_set_operation_over">Complete operation with invalid code notification</string>
+    <string name="btn_action_set_operation_revise">Request for clarification of the response to the operation.</string>
+    <string name="btn_action_get_num_repeat">Request reuse of this number.</string>
+
+    <string name="btn_action_set_operation_used">the issued number has already been used or blocked in the service for which activation was requested.</string>
+    <string name="btn_action_set_operation_ok">Code received successfully</string>
+    <string name="textView2">Dedicated number:</string>
+
+    <string name="about_text">The application uses the official API 2.0. We do not charge fees.
+         \nThe entire fee is charged by the owners of the sms-reg.com service.
+         \nFor all questions, contact technical support for sms-reg.com.
+         \nThe application requires a Web Api key in your account.
+         \nQuestions about the application: %1$s</string>
+
+    <string name="title_api_key">API access key</string>
+
+    <string name="tab_active">active</string>
+    <string name="tab_completed">completed</string>
+
+    <string name="err_server_access">Error accessing the server</string>
+
+    <string name="account_balanse">On your account %.2f RUB</string>
+    <string name="request_successful">Request completed successfully!</string>
+
+    <string name="title_vsim_get">Rent a phone number</string>
+    <string name="hint_api_key">API key</string>
+
+    <string name="tzid_numbel_holder"># %1$s</string>
+    <string name="action_rent_number">Rent a phone number</string>
+    <string name="service_handler">Принять смс от %1$s</string>
+    <string name="prompt_select_country">-- Select country --</string>
+    <string name="prompt_select_service">-- Choose a service --</string>
+    <string name="copy_to_buffer_handler">Скопированно в буфер обмена: %1$s</string>
+    <string name="handler_message">Сообщение: %1$s</string>
+
+    <string name="time_to_start_renting">Lease start time: %1$s</string>
+    <string name="rent_end_time">Rent end time: %1$s</string>
+    <string name="dedicated_virtual_number">Dedicated virtual number:</string>
+    <string name="choose_rental_period">Choose rental period</string>
+    <string name="lease_term_handler">-- Lease Term --</string>
+
+    <string name="err_select_service">Choose a service</string>
+    <string name="service_handler_2">Service: %1$s</string>
+    <string name="tab_ip" translatable="false">ip</string>
+    <string name="key_saved">API Key Saved</string>
+    <string name="operation_id">Operation id:</string>
+    <string name="action_get_number">Get a number</string>
+    <string name="empty_number">##########</string>
+    <string name="status_tz_inpool">Операция ожидает выделения номера</string>
+    <string name="status_tz_num_prepare">Выдан номер, ожидается выполнение метода SetReady</string>
+    <string name="status_tz_num_wait">Ожидается ответ</string>
+    <string name="status_num_answer">Поступил ответ</string>
+    <string name="status_tz_num_wait2">Ожидается уточнение полученного кода</string>
+    <string name="status_tz_num_answer2">Поступил ответ после уточнения</string>
+    <string name="status_warning_no_nums">Нету подходящих номеров</string>
+    <string name="status_tz_over_ok">Операция завершена</string>
+    <string name="status_tz_over_gr">Операция отмечена как ошибочная</string>
+    <string name="status_tz_over_nr">Вы не отправили запрос методом setReady</string>
+    <string name="status_tz_over_empty">Ответ не поступил за отведенное время</string>
+    <string name="status_tz_over2_empty">Уточнение не поступило за отведенное время</string>
+    <string name="status_tz_over2_ok">Операция завершена после уточнения</string>
+    <string name="status_tz_delete">Операция удалена, средства возвращены</string>
+
+    <string name="error_no_key" translatable="false">
+        Укажите API ключ с личного кабинета sms-reg.com\n
+        в настройках программы
+    </string>
+
+    <string name="publisher_feedback_email" translatable="false">ceh4@protonmail.ch</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/splash_cool_white" />
+
+<!--    <item>-->
+<!--        <bitmap-->
+<!--            android:src="@drawable/main_bg"-->
+<!--            android:tileMode="repeat" />-->
+<!--        &lt;!&ndash;        <shape>&ndash;&gt;-->
+<!--        &lt;!&ndash;            <gradient&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:angle="45"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:endColor="#B10A38"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:startColor="#5B0A6B"&ndash;&gt;-->
+<!--        &lt;!&ndash;                android:type="linear" />&ndash;&gt;-->
+<!--        &lt;!&ndash;        </shape>&ndash;&gt;-->
+<!--    </item>-->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/ic_logo_main0" />
+    </item>
+</layer-list>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="please_wait">请稍候…</string>
+    <string name="action_generate">生成</string>
+    <string name="action_history">历史记录</string>
+    <string name="action_scan">扫描</string>
+    <string name="toolbar_title_scan">代码扫描仪</string>
+    <string name="toolbar_title_history">历史记录</string>
+    <string name="play_sound">播放声音</string>
+    <string name="vibrate">振动</string>
+    <string name="save_history">保存历史记录</string>
+    <string name="copy_to_clipboard">复制到剪贴板</string>
+    <string name="hint_enter_your_text">输入您的文本</string>
+    <string name="error_provide_proper_content_and_type">在生成代码之前，请提供正确的信息</string>
+    <string name="error_barcode_content_limit">条形码内容长度应在1到80之间</string>
+    <string name="error_qrcode_content_limit">QR码内容长度应在1到1000之间</string>
+    <string name="toolbar_title_generated_qr_code">生成的QR码</string>
+    <string name="code_type">类型：%s</string>
+    <string name="scanResultContent">内容：%s</string>
+    <string name="saved_the_code_successfully">成功保存代码</string>
+    <string name="failed_to_save_the_code">无法保存代码</string>
+    <string name="failed_to_share_the_code">无法分享代码</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">本地存储中已存在生成的代码</string>
+    <string name="share_code_using">使用以下方式分享代码…</string>
+    <string name="flash">闪光灯</string>
+    <string name="scan_gallery">扫描图库</string>
+    <string name="error_occured_while_scanning">扫描时发生错误</string>
+    <string name="error_could_not_load_the_image">无法加载图像</string>
+    <string name="error_did_not_find_any_content">未找到任何内容。请尝试使用不同的图像再次扫描</string>
+    <string name="toolbar_title_scan_result">扫描结果</string>
+    <string name="open_in_browser">在浏览器中打开</string>
+    <string name="created_time">创建时间：%s</string>
+    <string name="scanned_qr_code_content">扫描的QR码内容</string>
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="code_scan">%s扫描</string>
+    <string name="no_item">扫描历史为空</string>
+    <string name="get_value">获取值</string>
+    <string name="toolbar_title_uploaded_image">上传的图像</string>
+    <string name="error_something_wrong">出现错误</string>
+    <string name="action_delete">删除</string>
+    <string name="this_permission_is_needed" translatable="false">需要此权限</string>
+    <string name="permission_title_needed" translatable="false">需要权限</string>
+    <string name="qrcodescan">QR码扫描</string>
+    <string name="jpg_viewer_not_installed">未安装JPG查看器</string>
+    <string name="file_saved">文件已保存</string>
+    <string name="action_open">打开</string>
+    <string name="share_file">分享文件</string>
+
+</resources>

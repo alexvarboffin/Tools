@@ -1,0 +1,49 @@
+<resources>
+    <string name="please_wait">Iltimos, kuting…</string>
+    <string name="action_generate">Generatsiya qilish</string>
+    <string name="action_history">Tarix</string>
+    <string name="action_scan">Skanirovka</string>
+    <string name="toolbar_title_scan">Kod skanneri</string>
+    <string name="toolbar_title_history">Tarix</string>
+    <string name="play_sound">Ovozni ijro etish</string>
+    <string name="vibrate">Vibratsiya</string>
+    <string name="save_history">Tarixni saqlash</string>
+    <string name="copy_to_clipboard">Klipbordga nusxa olish</string>
+    <string name="hint_enter_your_text">Matningizni kiriting</string>
+    <string name="error_provide_proper_content_and_type">Iltimos, kodni generatsiya qilishdan oldin to\'g\'ri ma\'lumot bering</string>
+    <string name="error_barcode_content_limit">Shtrixkodning tarkibi 1 dan 80 belgigacha bo\'lishi kerak</string>
+    <string name="error_qrcode_content_limit">QR-kodning tarkibi 1 dan 1000 belgigacha bo\'lishi kerak</string>
+    <string name="toolbar_title_generated_qr_code">Generatsiya qilingan QR-kod</string>
+    <string name="code_type">Turi: %s</string>
+    <string name="scanResultContent">Tarkib: %s</string>
+    <string name="saved_the_code_successfully">Kod muvaffaqiyatli saqlandi</string>
+    <string name="failed_to_save_the_code">Kodni saqlashda xatolik yuz berdi</string>
+    <string name="failed_to_share_the_code">Kodni ulashda xatolik yuz berdi</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">Generatsiya qilingan kod mavjud</string>
+    <string name="share_code_using">Kodni ulash…</string>
+    <string name="flash">Chiroq</string>
+    <string name="scan_gallery">Galereyani skan qilish</string>
+    <string name="error_occured_while_scanning">Skanlash jarayonida xatolik yuz berdi</string>
+    <string name="error_could_not_load_the_image">Rasm yuklanmadi</string>
+    <string name="error_did_not_find_any_content">Hech qanday tarkib topilmadi. Boshqa rasm bilan qayta urinib ko\'ring</string>
+    <string name="toolbar_title_scan_result">Skan natijasi</string>
+    <string name="open_in_browser">Brauzerda ochish</string>
+    <string name="created_time">Yaratilgan vaqt: %s</string>
+    <string name="scanned_qr_code_content">Skan qilingan QR-kodning tarkibi</string>
+    <string name="copied_to_clipboard">Klipbordga nusxalandi</string>
+    <string name="code_scan">%s Skan</string>
+    <string name="no_item">Skan tarixi bo\'sh</string>
+    <string name="get_value">Qiymatni olish</string>
+    <string name="toolbar_title_uploaded_image">Yuklangan rasm</string>
+    <string name="error_something_wrong">Nimadir noto\'g\'ri ketdi</string>
+    <string name="action_delete">O\'chirish</string>
+    <string name="this_permission_is_needed" translatable="false">Bu ruxsat talab qilinadi</string>
+    <string name="permission_title_needed" translatable="false">Ruxsat talab qilinadi</string>
+    <string name="qrcodescan">QR-kod skaneri</string>
+    <string name="jpg_viewer_not_installed">JPG ko\'rishchi o\'rnatilmagan</string>
+    <string name="file_saved">Fayl saqlandi</string>
+    <string name="action_open">Ochish</string>
+    <string name="share_file">Faylni ulashish</string>
+
+</resources>

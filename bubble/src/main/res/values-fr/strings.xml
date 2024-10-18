@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Couleur de la bulle</string>
+    <string name="abc_bubbleSensitivity">Sensibilité de la bulle</string>
+    <string name="abc_calibrate">Calibrer</string>
+    <string name="abc_calibrateText">Placez votre appareil face vers le haut sur une surface plane et de niveau (par exemple, le sol de votre chambre) et appuyez sur CALIBRER. Pour réinitialiser la calibration d\'usine, appuyez sur RESTAURER.</string>
+    <string name="abc_calibration_finished">Calibration terminée</string>
+
+    <string name="abc_cero_degrees">-00,00º</string>
+    <string name="abc_liquidColor">Couleur du liquide</string>
+    <string name="abc_moreApps">Plus d\'applications</string>
+    <string name="abc_pause">Pause ou continuer</string>
+    <string name="abc_permission_explanation">L\'autorisation de la caméra est nécessaire pour afficher des informations visuelles à l\'écran</string>
+    <string name="abc_precision">Précision</string>
+    <string name="abc_remove_ads">Supprimer les publicités et soutenir ce projet</string>
+    <string name="abc_restore">Restaurer</string>
+    <string name="abc_restore_settings">Restaurer les paramètres initiaux</string>
+    <string name="abc_save_settings">Enregistrer</string>
+    <string name="abc_settings">Paramètres</string>
+    <string name="abc_settings_saved">Paramètres enregistrés</string>
+    <string name="abc_share">Partager avec…</string>
+    <string name="abc_showSign">Afficher le signe négatif</string>
+    <string name="abc_start">Démarrer</string>
+</resources>

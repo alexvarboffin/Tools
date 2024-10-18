@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "150314812437",
+    "firebase_url": "https://vibrophone-f0496.firebaseio.com",
+    "project_id": "vibrophone-f0496",
+    "storage_bucket": "vibrophone-f0496.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150314812437:android:0df46bb25f381cdf4b7a1c",
+        "android_client_info": {
+          "package_name": "com.walhalla.vibro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150314812437-n97gviqbgt59se7hle42efkj7g6h181e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walhalla.vibro",
+            "certificate_hash": "2276a061c9c3cfe10324d6ad7903f280e9f37beb"
+          }
+        },
+        {
+          "client_id": "150314812437-dlooq6ond707nautq94oqfda8idsqlcf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walhalla.vibro",
+            "certificate_hash": "e9fdecef2273c26a2e08e93440d08167037417d0"
+          }
+        },
+        {
+          "client_id": "150314812437-dsm3ubhdfbs25g6f06tu89dq1ffaum7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtG2a1M5lG3FWsgvbOl1Oa-1_ous__AME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150314812437-dsm3ubhdfbs25g6f06tu89dq1ffaum7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

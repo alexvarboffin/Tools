@@ -1,0 +1,9 @@
+Selected Image
+/picker/0/com.android.providers.media.photopicker/media/1000000035
+
+Загруженный набор App Bundle подписан с помощью недавно добавленного сертификата, который пока недействителен.
+Загрузка наборов Android App Bundle будет доступна с 5 янв. 2024 г., 15:08:32 (UTC).
+
+title: QR & Barcode Wizard
+description: QR Scanner - Barcode Scanner
+QR Wizard

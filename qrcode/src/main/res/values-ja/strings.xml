@@ -1,0 +1,49 @@
+<resources>
+    <string name="please_wait">お待ちください...</string>
+    <string name="action_generate">生成</string>
+    <string name="action_history">履歴</string>
+    <string name="action_scan">スキャン</string>
+    <string name="toolbar_title_scan">コードスキャナ</string>
+    <string name="toolbar_title_history">履歴</string>
+    <string name="play_sound">サウンドを再生</string>
+    <string name="vibrate">バイブレーション</string>
+    <string name="save_history">履歴を保存</string>
+    <string name="copy_to_clipboard">クリップボードにコピー</string>
+    <string name="hint_enter_your_text">テキストを入力</string>
+    <string name="error_provide_proper_content_and_type">コードを生成する前に正しい情報を提供してください</string>
+    <string name="error_barcode_content_limit">バーコードの内容の長さは1から80の間である必要があります</string>
+    <string name="error_qrcode_content_limit">QRコードの内容の長さは1から1000の間である必要があります</string>
+    <string name="toolbar_title_generated_qr_code">生成されたQRコード</string>
+    <string name="code_type">タイプ：%s</string>
+    <string name="scanResultContent">内容：%s</string>
+    <string name="saved_the_code_successfully">コードを保存しました</string>
+    <string name="failed_to_save_the_code">コードを保存できませんでした</string>
+    <string name="failed_to_share_the_code">コードを共有できませんでした</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">生成されたコードはすでにローカルストレージに存在しています</string>
+    <string name="share_code_using">コードを共有：</string>
+    <string name="flash">フラッシュ</string>
+    <string name="scan_gallery">ギャラリーからスキャン</string>
+    <string name="error_occured_while_scanning">スキャン中にエラーが発生しました</string>
+    <string name="error_could_not_load_the_image">画像を読み込めませんでした</string>
+    <string name="error_did_not_find_any_content">コンテンツが見つかりませんでした。別の画像で再試行してください</string>
+    <string name="toolbar_title_scan_result">スキャン結果</string>
+    <string name="open_in_browser">ブラウザで開く</string>
+    <string name="created_time">作成時刻：%s</string>
+    <string name="scanned_qr_code_content">スキャンされたQRコードの内容</string>
+    <string name="copied_to_clipboard">クリップボードにコピーしました</string>
+    <string name="code_scan">%sスキャン</string>
+    <string name="no_item">スキャン履歴は空です</string>
+    <string name="get_value">値を取得</string>
+    <string name="toolbar_title_uploaded_image">アップロードされた画像</string>
+    <string name="error_something_wrong">何かがうまくいかなかったようです</string>
+    <string name="action_delete">削除</string>
+    <string name="this_permission_is_needed" translatable="false">この権限が必要です</string>
+    <string name="permission_title_needed" translatable="false">権限が必要です</string>
+    <string name="qrcodescan">QRコードスキャン</string>
+    <string name="jpg_viewer_not_installed">JPGビューアがインストールされていません</string>
+    <string name="file_saved">ファイルが保存されました</string>
+    <string name="action_open">開く</string>
+    <string name="share_file">ファイルを共有</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Цвет пузырька</string>
+    <string name="abc_bubbleSensitivity">Чувствительность пузырька</string>
+    <string name="abc_calibrate">Калибровать</string>
+    <string name="abc_calibrateText">Поместите устройство лицевой стороной вверх на ровную и плоскую поверхность (например, пол в вашей комнате) и нажмите КАЛИБРОВАТЬ. Чтобы сбросить до заводских настроек, нажмите ВОССТАНОВИТЬ.</string>
+    <string name="abc_calibration_finished">Калибровка завершена</string>
+
+    <string name="abc_cero_degrees">-00,00º</string>
+    <string name="abc_liquidColor">Цвет жидкости</string>
+    <string name="abc_moreApps">Другие приложения</string>
+    <string name="abc_pause">Пауза или продолжить</string>
+    <string name="abc_permission_explanation">Требуется разрешение на камеру для отображения визуальной информации на экране</string>
+    <string name="abc_precision">Точность</string>
+    <string name="abc_remove_ads">Удалить рекламу и поддержать проект</string>
+    <string name="abc_restore">Восстановить</string>
+    <string name="abc_restore_settings">Восстановить начальные настройки</string>
+    <string name="abc_save_settings">Сохранить</string>
+    <string name="abc_settings">Настройки</string>
+    <string name="abc_settings_saved">Настройки сохранены</string>
+    <string name="abc_share">Поделиться с…</string>
+    <string name="abc_showSign">Показывать отрицательный знак</string>
+    <string name="abc_start">Старт</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_bubbleColor">Blasenfarbe</string>
+    <string name="abc_bubbleSensitivity">Blasenempfindlichkeit</string>
+    <string name="abc_calibrate">Kalibrieren</string>
+    <string name="abc_calibrateText">Legen Sie Ihr Gerät mit der Vorderseite nach oben auf eine ebene und flache Oberfläche (z. B. den Boden Ihres Zimmers) und drücken Sie KALIBRIEREN. Um die Werkseinstellung wiederherzustellen, drücken Sie WIEDERHERSTELLEN.</string>
+    <string name="abc_calibration_finished">Kalibrierung abgeschlossen</string>
+
+    <string name="abc_cero_degrees">-00,00º</string>
+    <string name="abc_liquidColor">Flüssigkeitsfarbe</string>
+    <string name="abc_moreApps">Weitere Apps</string>
+    <string name="abc_pause">Pause oder fortfahren</string>
+    <string name="abc_permission_explanation">Die Kameraberechtigung wird benötigt, um visuelle Informationen auf dem Bildschirm anzuzeigen</string>
+    <string name="abc_precision">Präzision</string>
+    <string name="abc_remove_ads">Werbung entfernen und dieses Projekt unterstützen</string>
+    <string name="abc_restore">Wiederherstellen</string>
+    <string name="abc_restore_settings">Ursprüngliche Einstellungen wiederherstellen</string>
+    <string name="abc_save_settings">Speichern</string>
+    <string name="abc_settings">Einstellungen</string>
+    <string name="abc_settings_saved">Einstellungen gespeichert</string>
+    <string name="abc_share">Teilen mit…</string>
+    <string name="abc_showSign">Negatives Zeichen anzeigen</string>
+    <string name="abc_start">Starten</string>
+</resources>

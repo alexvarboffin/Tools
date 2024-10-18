@@ -1,0 +1,49 @@
+<resources>
+    <string name="please_wait">Zəhmət olmasa gözləyin…</string>
+    <string name="action_generate">Yarat</string>
+    <string name="action_history">Tarix</string>
+    <string name="action_scan">Skanirovka</string>
+    <string name="toolbar_title_scan">Kod skaneri</string>
+    <string name="toolbar_title_history">Tarix</string>
+    <string name="play_sound">Səs oynat</string>
+    <string name="vibrate">Titrəmək</string>
+    <string name="save_history">Tarixi saxla</string>
+    <string name="copy_to_clipboard">Panoya kopyala</string>
+    <string name="hint_enter_your_text">Mətninizi daxil edin</string>
+    <string name="error_provide_proper_content_and_type">Zəhmət olmasa kod yaratmadan əvvəl düzgün məlumat verin</string>
+    <string name="error_barcode_content_limit">Barkod məzmununun uzunluğu 1 ilə 80 arasında olmalıdır</string>
+    <string name="error_qrcode_content_limit">QR Kod məzmununun uzunluğu 1 ilə 1000 arasında olmalıdır</string>
+    <string name="toolbar_title_generated_qr_code">Yaradılmış QR Kod</string>
+    <string name="code_type">Növ: %s</string>
+    <string name="scanResultContent">Məzmun: %s</string>
+    <string name="saved_the_code_successfully">Kod uğurla saxlanıldı</string>
+    <string name="failed_to_save_the_code">Kod saxlanılmadı</string>
+    <string name="failed_to_share_the_code">Kodu paylaşmaq mümkün olmadı</string>
+    <string name="file_name_body">%s_%s</string>
+    <string name="generated_qr_code_already_exists">Yaradılmış kod yerli saxlamada artıq mövcuddur</string>
+    <string name="share_code_using">Kodu paylaşmaq üçün…</string>
+    <string name="flash">Flash</string>
+    <string name="scan_gallery">Qalereyanı skan et</string>
+    <string name="error_occured_while_scanning">Skan zamanı xəta baş verdi</string>
+    <string name="error_could_not_load_the_image">Şəkil yüklənə bilmədi</string>
+    <string name="error_did_not_find_any_content">Heç bir məzmun tapılmadı. Başqa şəkil ilə təkrar cəhd edin</string>
+    <string name="toolbar_title_scan_result">Skanın nəticəsi</string>
+    <string name="open_in_browser">Brauzerdə aç</string>
+    <string name="created_time">Yaradıldı vaxtı: %s</string>
+    <string name="scanned_qr_code_content">Skan olunmuş QR kod məzmunu</string>
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="code_scan">%s Skan</string>
+    <string name="no_item">Skan tarixi boşdur</string>
+    <string name="get_value">Qiymət al</string>
+    <string name="toolbar_title_uploaded_image">Yüklənmiş Şəkil</string>
+    <string name="error_something_wrong">Bir şey səhv gedir</string>
+    <string name="action_delete">Sil</string>
+    <string name="this_permission_is_needed" translatable="false">Bu icazə lazımdır</string>
+    <string name="permission_title_needed" translatable="false">İcazə tələb olunur</string>
+    <string name="qrcodescan">QR Kod Skanı</string>
+    <string name="jpg_viewer_not_installed">JPG baxıcısı quraşdırılmamışdır</string>
+    <string name="file_saved">Fayl qeyd edildi</string>
+    <string name="action_open">Aç</string>
+    <string name="share_file">Faylı paylaş</string>
+
+</resources>

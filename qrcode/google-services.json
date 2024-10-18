@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "494182052051",
+    "firebase_url": "https://qrat-d1ad1.firebaseio.com",
+    "project_id": "qrat-d1ad1",
+    "storage_bucket": "qrat-d1ad1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494182052051:android:c180ccc65c0e958f",
+        "android_client_info": {
+          "package_name": "com.walhalla.qrcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494182052051-ikk7pl19fdi8gigmmof4uobgm7r1p2pr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.walhalla.qrcode",
+            "certificate_hash": "bc2388bfe19be7212211b95e2d2b7abbf0a735e8"
+          }
+        },
+        {
+          "client_id": "494182052051-g51i1av1jg0mi9sg00j0etv1qq90eu2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2s4gCCoB35WX_-mG-QF1e-aX1Miu1SwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494182052051-g51i1av1jg0mi9sg00j0etv1qq90eu2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

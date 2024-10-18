@@ -1,0 +1,19 @@
+include ':qrcode'
+include ':bubble'
+include ':vibrophone'
+include ':sms'
+
+include ':threader'
+project(':threader').projectDir = new File('D:\\walhalla\\sdk\\android\\multithreader\\threader')
+
+include ':features:ui'
+project(':features:ui').projectDir = new File('D:\\walhalla\\sdk\\android\\UI\\features\\ui\\')
+include ':features:wads'
+project(':features:wads').projectDir = new File('D:\\walhalla\\sdk\\android\\UI\\features\\wads\\')
+
+
+
+//include ':konfetty:core'
+//project(':konfetty:core').projectDir = new File('C:\\Users\\combo\\Desktop\\Konfetti\\konfetti\\core\\')
+
+include ':common'
