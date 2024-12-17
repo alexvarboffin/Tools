@@ -682,7 +682,13 @@
 -dontwarn com.google.auto.value.AutoValue$Builder
 
 # End of content from C:\Users\combo\.gradle\caches\transforms-3\a4d7db2228d92dc3a6dd880256b74899\transformed\jetified-transport-backend-cct-3.3.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\2926cfa8e53493c08d4cf8a1df54a547\transformed\jetified-play-services-ads-23.3.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\9ca2407b5b1a1d0e15ba1ada561ce13e\transformed\jetified-app-update-ktx-2.1.0\proguard.txt
+# Proguard cannot process META-INF/versions/9.
+# See https://discuss.gradle.org/t/meta-inf-version-duplicate-error-when-using-proguard/31380
+-dontwarn module-info
+
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\9ca2407b5b1a1d0e15ba1ada561ce13e\transformed\jetified-app-update-ktx-2.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\e92f9be148fe37362ed0a17ab8aabc6c\transformed\jetified-play-services-ads-23.4.0\proguard.txt
 -keep public class com.google.android.gms.ads.internal.ClientApi {
   <init>();
 }
@@ -750,7 +756,7 @@
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
 # rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.ads.zzgxy {
+-keepclassmembers class * extends com.google.android.gms.internal.ads.zzhbe {
   <fields>;
 }
 
@@ -758,7 +764,7 @@
 -dontwarn com.google.android.gms.ads.internal.util.zzy
 
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\2926cfa8e53493c08d4cf8a1df54a547\transformed\jetified-play-services-ads-23.3.0\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\e92f9be148fe37362ed0a17ab8aabc6c\transformed\jetified-play-services-ads-23.4.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\d881b6e9a4582445c969b4d078fc110d\transformed\jetified-play-services-measurement-22.1.0\proguard.txt
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
@@ -786,12 +792,6 @@
 }
 
 # End of content from C:\Users\combo\.gradle\caches\transforms-3\a0f3ac6ebb464914c829b8c653adaf53\transformed\jetified-play-services-measurement-impl-22.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\9ca2407b5b1a1d0e15ba1ada561ce13e\transformed\jetified-app-update-ktx-2.1.0\proguard.txt
-# Proguard cannot process META-INF/versions/9.
-# See https://discuss.gradle.org/t/meta-inf-version-duplicate-error-when-using-proguard/31380
--dontwarn module-info
-
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\9ca2407b5b1a1d0e15ba1ada561ce13e\transformed\jetified-app-update-ktx-2.1.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\64da2f171791dc13d038454932c3e28c\transformed\jetified-review-ktx-2.0.1\proguard.txt
 # Proguard cannot process META-INF/versions/9.
 # See https://discuss.gradle.org/t/meta-inf-version-duplicate-error-when-using-proguard/31380
@@ -892,7 +892,7 @@
 #-keepresourcexmlelements manifest/application/meta-data@value=GlideModule
 
 # End of content from C:\Users\combo\.gradle\caches\transforms-3\4a561aa85e84e5f11f56582649a331c5\transformed\jetified-glide-4.16.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\a8233a498c45f514f9d89912ffcaaec4\transformed\jetified-play-services-ads-lite-23.3.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\c8cfad0e5cc6ab819a4a3c05929f8ce0\transformed\jetified-play-services-ads-lite-23.4.0\proguard.txt
 # Keep implementations of the AdMob mediation adapter interfaces. Adapters for
 # third party ad networks implement these interfaces and are invoked by the
 # AdMob SDK via reflection.
@@ -939,14 +939,19 @@
   private void setPlugin(java.lang.String);
 }
 
+# Keep recordEvent API for Immersive SDK to access via reflection.
+-keep class com.google.android.gms.ads.nativead.NativeAd {
+  protected abstract void recordEvent(android.os.Bundle);
+}
+
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
 # rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.ads.zzgxy {
+-keepclassmembers class * extends com.google.android.gms.internal.ads.zzhbe {
   <fields>;
 }
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\a8233a498c45f514f9d89912ffcaaec4\transformed\jetified-play-services-ads-lite-23.3.0\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\c8cfad0e5cc6ab819a4a3c05929f8ce0\transformed\jetified-play-services-ads-lite-23.4.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\5dd7c98257430d0eb9d356a083a2eb58\transformed\jetified-firebase-common-21.0.0\proguard.txt
 -dontwarn com.google.firebase.platforminfo.KotlinDetector
 -dontwarn com.google.auto.value.AutoValue

@@ -1,7 +1,6 @@
 package a.bubblelevel.spiritpro;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.hardware.Sensor;
@@ -15,12 +14,32 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.IntentSenderRequest;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
 import androidx.preference.PreferenceManager;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.play.core.appupdate.AppUpdateInfo;
+import com.google.android.play.core.appupdate.AppUpdateManager;
+import com.google.android.play.core.appupdate.AppUpdateManagerFactory;
+import com.google.android.play.core.appupdate.AppUpdateOptions;
+import com.google.android.play.core.appupdate.testing.FakeAppUpdateManager;
+import com.google.android.play.core.install.InstallState;
+import com.google.android.play.core.install.InstallStateUpdatedListener;
+import com.google.android.play.core.install.model.AppUpdateType;
+import com.google.android.play.core.install.model.InstallStatus;
+import com.google.android.play.core.install.model.UpdateAvailability;
+import com.walhalla.ui.DLog;
 import com.walhalla.ui.observer.RateAppModule;
 import com.walhalla.ui.plugins.Module_U;
 
@@ -65,6 +84,11 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private PowerManager.WakeLock wakeLock;
     private RateAppModule var1;
 
+    private AppUpdateManager appUpdateManager;
+    private static final int DAYS_FOR_FLEXIBLE_UPDATE = 3;
+    private ActivityResultLauncher<IntentSenderRequest> activityResultLauncher;
+    private InstallStateUpdatedListener installStateUpdatedListener;
+
 
     @Override
     public void onAccuracyChanged(Sensor sensor, int i) {
@@ -80,6 +104,20 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         var1 = new RateAppModule(this);
         getLifecycle().addObserver(var1);
 
+        activityResultLauncher = registerForActivityResult(
+                new ActivityResultContracts.StartIntentSenderForResult(),
+                result -> {
+                    // handle callback
+                    if (result.getResultCode() != RESULT_OK) {
+                        DLog.d("Update flow failed! Result code: " + result.getResultCode());
+                        // If the update is canceled or fails,
+                        // you can request to start the update again.
+                    } else {
+                        DLog.d("ok?: " + result.getResultCode());
+                    }
+                });
+        appUpdater(this);
+
         AdAdmob adAdmob = new AdAdmob(this);
         adAdmob.FullscreenAd_Counter(this);
 
@@ -90,6 +128,24 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         this.mMeanBubbles = new double[2];
         this.mBubbleAngles = new double[2];
 
+    }
+
+    private void appUpdater(Context context) {
+        appUpdateManager = AppUpdateManagerFactory.create(context);
+        // Before starting an update, register a listener for updates.
+        installStateUpdatedListener = new InstallStateUpdatedListener() {
+            @Override
+            public void onStateUpdate(@NonNull InstallState installState) {
+                DLog.d("@@@" + installState);
+            }
+        };
+        appUpdateManager.registerListener(installStateUpdatedListener);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        appUpdateManager.unregisterListener(installStateUpdatedListener);
     }
 
     private void initUI() {
@@ -152,6 +208,29 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     public void onResume() {
         super.onResume();
+        String installer = getPackageManager().getInstallerPackageName(getPackageName());
+        if (
+                BuildConfig.DEBUG || "com.android.vending".equals(installer)
+
+        ) {
+            //https://play.google.com/apps/testing/a.bubblelevel.spiritpro
+            FakeAppUpdateManager fakeAppUpdateManager = new FakeAppUpdateManager(this);
+            fakeAppUpdateManager.setUpdateAvailable(2); // add app version code greater than current version.
+            //fakeAppUpdateManager.setClientVersionStalenessDays(0);
+            //fakeAppUpdateManager.downloadStarts();
+            if (BuildConfig.DEBUG) {
+                updateAppVersion(fakeAppUpdateManager);
+            }else {
+                updateAppVersion(AppUpdateManagerFactory.create(this));
+            }
+
+
+
+        } else {
+
+        }
+        DLog.d("@" + installer);
+
 
         loadPreferences();
         double[] dArr = this.mMeanAngles;
@@ -171,6 +250,100 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         sensorManager.registerListener(this, sensorManager.getDefaultSensor(1), 0);
     }
 
+    private void updateAppVersion(AppUpdateManager manager) {// Returns an intent object that you use to check for an update.
+        Task<AppUpdateInfo> appUpdateInfoTask = manager.getAppUpdateInfo();
+
+        // Checks that the platform will allow the specified type of update.
+        appUpdateInfoTask
+                .addOnSuccessListener(appUpdateInfo -> {
+                    DLog.d("@@" + appUpdateInfo.availableVersionCode()
+                            + "@@" + appUpdateInfo.updateAvailability()
+                            + "@@@" + appUpdateInfo.clientVersionStalenessDays());
+
+                    DLog.d("@@@@@@@@@@@xx" + appUpdateInfo.isUpdateTypeAllowed(AppUpdateType.IMMEDIATE));
+                    DLog.d("@@@@@@@@@@@xx" + appUpdateInfo.isUpdateTypeAllowed(AppUpdateType.FLEXIBLE));
+
+                    if (appUpdateInfo.updateAvailability()
+                            == UpdateAvailability.DEVELOPER_TRIGGERED_UPDATE_IN_PROGRESS) {
+                        // If an in-app update is already running, resume the update.
+                        manager.startUpdateFlowForResult(
+                                appUpdateInfo,
+                                activityResultLauncher,
+                                AppUpdateOptions.newBuilder(AppUpdateType.IMMEDIATE).build());
+                    }else {
+                        // If the update is downloaded but not installed,
+                        // notify the user to complete the update.
+                        if (appUpdateInfo.installStatus() == InstallStatus.DOWNLOADED) {
+                            popupSnackbarForCompleteUpdate();
+                        } else
+                            // Checks that the platform will allow the specified type of update.
+                            if (appUpdateInfo.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE
+                                    // This example applies an immediate update. To apply a flexible update
+                                    // instead, pass in AppUpdateType.FLEXIBLE
+                                    && appUpdateInfo.isUpdateTypeAllowed(AppUpdateType.IMMEDIATE)) {
+                                // Request the update.
+
+                                try {
+                                    DLog.d("xxxxx");
+                                    manager.startUpdateFlowForResult(
+                                            // Pass the intent that is returned by 'getAppUpdateInfo()'.
+                                            appUpdateInfo,
+                                            // an activity result launcher registered via registerForActivityResult
+                                            activityResultLauncher,
+                                            // Or pass 'AppUpdateType.FLEXIBLE' to newBuilder() for
+                                            // flexible updates.
+                                            AppUpdateOptions.newBuilder(AppUpdateType.IMMEDIATE)
+                                                    //.setAllowAssetPackDeletion(true)
+                                                    .build());
+                                } catch (Exception e) {
+                                    DLog.handleException(e);
+                                }
+                            }
+
+                            // Checks whether the platform allows the specified type of update,
+                            // and current version staleness.
+                            else if (appUpdateInfo.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE
+                                    && appUpdateInfo.clientVersionStalenessDays() != null
+                                    && appUpdateInfo.clientVersionStalenessDays() >= DAYS_FOR_FLEXIBLE_UPDATE
+                                    && appUpdateInfo.isUpdateTypeAllowed(AppUpdateType.FLEXIBLE)) {
+                                // Request the update.
+
+
+
+                                try {
+                                    manager.startUpdateFlowForResult(
+                                            // Pass the intent that is returned by 'getAppUpdateInfo()'.
+                                            appUpdateInfo,
+                                            // an activity result launcher registered via registerForActivityResult
+                                            activityResultLauncher,
+                                            // Or pass 'AppUpdateType.FLEXIBLE' to newBuilder() for
+                                            // flexible updates.
+                                            AppUpdateOptions.newBuilder(AppUpdateType.FLEXIBLE)
+                                                    //.setAllowAssetPackDeletion(true)
+                                                    .build());
+                                } catch (Exception e) {
+                                    DLog.handleException(e);
+                                }
+                            }
+                    }
+
+
+                }).addOnFailureListener(e -> {
+                    DLog.handleException(e);
+                    DLog.d("@@@" + e);
+                });// Displays the snackbar notification and call to action.
+    }
+
+    private void popupSnackbarForCompleteUpdate() {
+        Snackbar snackbar =
+                Snackbar.make(
+                        findViewById(android.R.id.content),
+                        "An update has just been downloaded.",
+                        Snackbar.LENGTH_INDEFINITE);
+        snackbar.setAction("RESTART", view -> appUpdateManager.completeUpdate());
+        //snackbar.setActionTextColor(getResources().getColor(R.color.snackbar_action_text_color));
+        snackbar.show();
+    }
 
     @Override
     public void onPause() {
