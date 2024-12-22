@@ -66,8 +66,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
 
     lint {
@@ -80,9 +80,9 @@ android {
         buildConfig = true
     }
 
-    kotlinOptions {
-        jvmTarget = "17"
-    }
+//    kotlinOptions {
+//        jvm00Target = "21"
+//    }
 }
 
 
@@ -131,27 +131,27 @@ apply(from = "../copyReports.gradle.kts")
 //}
 dependencies {
     implementation(fileTree("libs") { include("*.jar") })
-    implementation("androidx.appcompat:appcompat:${rootProject.extra["compatVersion"]}")
-    implementation("com.google.android.material:material:${rootProject.extra["materialVersion"]}")
-    implementation("com.google.android.gms:play-services-ads:${rootProject.extra["gmsAds"]}")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("com.github.bumptech.glide:glide:${rootProject.extra["glideVersion"]}")
-    implementation("androidx.preference:preference:1.2.1")
-    implementation("pl.bclogic:pulsator4droid:1.0.3")
-    implementation("androidx.core:core-ktx:1.13.1")
+    implementation(libs.androidx.appcompat)
+    implementation(libs.material)
+    implementation(libs.play.services.ads)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.glide)
+    implementation(libs.androidx.preference.ktx.ktx)
+    implementation(libs.pulsator4droid)
+    implementation(libs.androidx.core.ktx)
 
     implementation(project(":features:ui"))
     implementation(project(":common"))
 
-    implementation("com.google.firebase:firebase-crashlytics:${rootProject.extra["crashlyticsVersion"]}")
-    implementation("com.google.firebase:firebase-analytics:${rootProject.extra["analyticsVersion"]}")
+    implementation(libs.firebase.crashlytics)
+    implementation(libs.firebase.analytics)
 
     // This dependency is downloaded from the Google’s Maven repository.
     // So, make sure you also include that repository in your project's build.gradle file.
-    implementation ("com.google.android.play:app-update:2.1.0")
+    implementation (libs.app.update)
 
     // For Kotlin users also add the Kotlin extensions library for Play In-App Update:
-    implementation ("com.google.android.play:app-update-ktx:2.1.0")
+    implementation (libs.app.update.ktx)
 }
 
 fun versionCodeDate(): Int {

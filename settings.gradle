@@ -1,3 +1,9 @@
+buildCache {
+    local {
+        directory = new File(rootDir, 'build-cache')
+        removeUnusedEntriesAfterDays = 100
+    }
+}
 include ':qrcode'
 include ':bubble'
 include ':vibrophone'

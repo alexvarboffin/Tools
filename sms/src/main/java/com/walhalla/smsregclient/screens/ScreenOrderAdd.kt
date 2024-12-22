@@ -1,211 +1,202 @@
-package com.walhalla.smsregclient.screens;
+package com.walhalla.smsregclient.screens
 
-import android.os.Bundle;
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
+import android.widget.CompoundButton
+import android.widget.Toast
+import androidx.databinding.DataBindingUtil
+import com.walhalla.smsregclient.Application
+import com.walhalla.smsregclient.Const
+import com.walhalla.smsregclient.R
+import com.walhalla.smsregclient.core.BaseFragment
+import com.walhalla.smsregclient.databinding.FragmentOrderAddBinding
+import com.walhalla.smsregclient.helper.PreferencesHelper
+import com.walhalla.smsregclient.network.APIService
+import com.walhalla.smsregclient.network.badbackend.BaseResponse
+import com.walhalla.smsregclient.network.beans.APIError
+import com.walhalla.smsregclient.network.response.OrderAddModel
+import com.walhalla.ui.DLog
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+import javax.inject.Inject
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.CompoundButton;
-import android.widget.Toast;
-
-import com.walhalla.smsregclient.Application;
-import com.walhalla.smsregclient.Const;
-import com.walhalla.smsregclient.R;
-import com.walhalla.smsregclient.databinding.FragmentOrderAddBinding;
-import com.walhalla.smsregclient.helper.PreferencesHelper;
-import com.walhalla.smsregclient.network.APIService;
-import com.walhalla.smsregclient.network.badbackend.BaseResponse;
-import com.walhalla.smsregclient.network.beans.APIError;
-import com.walhalla.smsregclient.network.response.OrderAddModel;
-import com.walhalla.smsregclient.core.BaseFragment;
-import com.walhalla.ui.DLog;
-
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.inject.Inject;
-
-
-import androidx.databinding.DataBindingUtil;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
-public class ScreenOrderAdd extends BaseFragment implements CompoundButton.OnCheckedChangeListener {
-
-    private FragmentOrderAddBinding mBinding;
+class ScreenOrderAdd : BaseFragment(), CompoundButton.OnCheckedChangeListener {
+    private var mBinding: FragmentOrderAddBinding? = null
 
     @Inject
-    PreferencesHelper preferencesHelper;
+    var preferencesHelper: PreferencesHelper? = null
 
-    private APIService service;
-    private Map<String, String> options;
-    private AdapterView.OnItemSelectedListener genderListener = new AdapterView.OnItemSelectedListener() {
-        @Override
-        public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-            String current = (String) parent.getSelectedItem();
-            //Log.d(current.getKey());
-            //Toast.makeText(getContext(), "TObject ID: " + current.getKey()
-            //        + ",  TObject Name : " + current.getValue(), Toast.LENGTH_SHORT).show();
-            options.put("gender", current);
+    private val service: APIService? = null
+    private var options: MutableMap<String, String>? = null
+    private val genderListener: AdapterView.OnItemSelectedListener =
+        object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(
+                parent: AdapterView<*>,
+                view: View,
+                position: Int,
+                id: Long
+            ) {
+                val current = parent.selectedItem as String
+                //Log.d(current.getKey());
+                //Toast.makeText(getContext(), "TObject ID: " + current.getKey()
+                //        + ",  TObject Name : " + current.getValue(), Toast.LENGTH_SHORT).show();
+                options!!["gender"] = current
+            }
 
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+            }
         }
-
-        @Override
-        public void onNothingSelected(AdapterView<?> parent) {
-
-        }
-    };
-    private Callback<OrderAddModel> addOrderCallback = new Callback<OrderAddModel>() {
-        @Override
-        public void onResponse(@NonNull Call<OrderAddModel> call, @NonNull Response<OrderAddModel> response) {
-            if (response.isSuccessful()) {
-
+    private val addOrderCallback: Callback<OrderAddModel> = object : Callback<OrderAddModel?> {
+        override fun onResponse(call: Call<OrderAddModel?>, response: Response<OrderAddModel?>) {
+            if (response.isSuccessful) {
                 //{"response":"ERROR","error_msg":"Wrong count value"}
 
 
-                BaseResponse bm = response.body();
+                val bm: BaseResponse? = response.body()
 
-                if (bm instanceof APIError) {
-                    Toast.makeText(getContext(), ((APIError) bm).error, Toast.LENGTH_SHORT).show();
-                    DLog.d("Error: " + bm.toString());
+                if (bm is APIError) {
+                    Toast.makeText(context, bm.error, Toast.LENGTH_SHORT).show()
+                    DLog.d("Error: $bm")
                 } else if (bm != null) {
-                    OrderAddModel bean = (OrderAddModel) bm;
-                    DLog.d("Success: " + bean.toString());
+                    val bean = bm as OrderAddModel
+                    DLog.d("Success: $bean")
 
-                    if (bean.response.equals(Const.RESPONSE_SUCCESS)) {
-                        String id = bean.getOrder_id();//id заказа
+                    if (bean.response == Const.RESPONSE_SUCCESS) {
+                        val id = bean.order_id //id заказа
                     }
                 }
             }
         }
 
-        @Override
-        public void onFailure(@NonNull Call<OrderAddModel> call, @NonNull Throwable throwable) {
-            showError(throwable.getLocalizedMessage());
+        override fun onFailure(call: Call<OrderAddModel?>, throwable: Throwable) {
+            showError(throwable.localizedMessage)
         }
-    };
-
-    public ScreenOrderAdd() {
-        Application.getComponents().inject(this);
     }
 
-    private void showError(String msg) {
-        Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
+    private fun showError(msg: String) {
+        Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
     }
 
-    private AdapterView.OnItemSelectedListener selectedListener;
+    private var selectedListener: AdapterView.OnItemSelectedListener? = null
 
 
-    private String[] countriesCodes;
-    private String[] servicesCodes;
+    private var countriesCodes: Array<String>
+    private var servicesCodes: Array<String>
 
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        mBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_order_add, container, false);
-        return mBinding.getRoot();
+    init {
+        Application.getComponents().inject(this)
     }
 
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        mBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_order_add, container, false)
+        return mBinding.getRoot()
+    }
 
-        mBinding.btnOrderAdd.setOnClickListener(v -> {
-            options.put("name", mBinding.inputName.getText().toString());
-            options.put("age", mBinding.inputAge.getText().toString());
-            options.put("city", mBinding.inputCity.getText().toString());
-            options.put("count", mBinding.inputCount.getText().toString());
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
-            DLog.d(options.toString());
-            service.orderAdd(
-                    preferencesHelper.getApiKey(),
-                    options).enqueue(addOrderCallback);
-        });
+        mBinding!!.btnOrderAdd.setOnClickListener { v: View? ->
+            options!!["name"] = mBinding!!.inputName.text.toString()
+            options!!["age"] = mBinding!!.inputAge.text.toString()
+            options!!["city"] = mBinding!!.inputCity.text.toString()
+            options!!["count"] = mBinding!!.inputCount.text.toString()
 
-        this.modifyContainer(getString(R.string.title_order_add), false);
+            DLog.d(options.toString())
+            service!!.orderAdd(
+                preferencesHelper!!.apiKey,
+                options
+            ).enqueue(addOrderCallback)
+        }
 
-        options = new HashMap<>();
-        selectedListener = new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String code = "";
-                int parentId = parent.getId();
+        this.modifyContainer(getString(R.string.title_order_add), false)
+
+        options = HashMap()
+        selectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(
+                parent: AdapterView<*>,
+                view: View,
+                position: Int,
+                id: Long
+            ) {
+                var code = ""
+                val parentId = parent.id
                 if (parentId == R.id.country) {
-                    code = countriesCodes[position];
-                    options.put("country", code);
+                    code = countriesCodes[position]
+                    options["country"] = code
                 } else if (parentId == R.id.service) {
-                    code = servicesCodes[position];
-                    options.put("service", code);
+                    code = servicesCodes[position]
+                    options["service"] = code
                 }
 
-                Toast.makeText(getContext(), code, Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, code, Toast.LENGTH_SHORT).show()
             }
 
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
+            override fun onNothingSelected(parent: AdapterView<*>?) {
             }
-        };
-
-        countriesCodes = getResources().getStringArray(R.array.country_codes);
-        servicesCodes = getResources().getStringArray(R.array.service_codes);
-
-        final String[] countries = getResources().getStringArray(R.array.country_names);
-
-
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
-                getContext(),
-                android.R.layout.simple_spinner_dropdown_item, countries);
-
-        mBinding.country.setAdapter(adapter);
-        mBinding.country.setOnItemSelectedListener(selectedListener);
-
-        String handler = getString(R.string.service_handler);
-        String[] array = getResources().getStringArray(R.array.service_names);
-        for (int i = 0; i < array.length; i++) {
-            array[i] = String.format(handler, array[i]);
         }
 
-        ArrayAdapter<String> adapterService = new ArrayAdapter<String>(getContext(),
-                android.R.layout.simple_spinner_dropdown_item, array);
-        mBinding.service.setAdapter(adapterService);
-        mBinding.service.setOnItemSelectedListener(selectedListener);
+        countriesCodes = resources.getStringArray(R.array.country_codes)
+        servicesCodes = resources.getStringArray(R.array.service_codes)
+
+        val countries = resources.getStringArray(R.array.country_names)
+
+
+        val adapter = ArrayAdapter(
+            context!!,
+            android.R.layout.simple_spinner_dropdown_item, countries
+        )
+
+        mBinding!!.country.adapter = adapter
+        mBinding!!.country.onItemSelectedListener = selectedListener
+
+        val handler = getString(R.string.service_handler)
+        val array = resources.getStringArray(R.array.service_names)
+        for (i in array.indices) {
+            array[i] = String.format(handler, array[i])
+        }
+
+        val adapterService = ArrayAdapter(
+            context!!,
+            android.R.layout.simple_spinner_dropdown_item, array
+        )
+        mBinding!!.service.adapter = adapterService
+        mBinding!!.service.onItemSelectedListener = selectedListener
 
         //gender
-        ArrayList<String> genderList = new ArrayList<>();
-        genderList.add("male");
-        genderList.add("female");
+        val genderList = ArrayList<String>()
+        genderList.add("male")
+        genderList.add("female")
 
-        ArrayAdapter<String> adp = new ArrayAdapter<String>(getContext(),
-                android.R.layout.simple_spinner_dropdown_item, genderList);
-        mBinding.sGender.setAdapter(adp);
+        val adp = ArrayAdapter(
+            context!!,
+            android.R.layout.simple_spinner_dropdown_item, genderList
+        )
+        mBinding!!.sGender.adapter = adp
         //dropdownGender.setSelection(adapter.getPosition("###"));
-        mBinding.sGender.setOnItemSelectedListener(genderListener);
-        mBinding.cbOptions.setOnCheckedChangeListener(this);
+        mBinding!!.sGender.onItemSelectedListener = genderListener
+        mBinding!!.cbOptions.setOnCheckedChangeListener(this)
     }
 
-    @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        options.put("options", (isChecked) ? "on" : "");
-        enableExtarnalOptions(isChecked);
+    override fun onCheckedChanged(buttonView: CompoundButton, isChecked: Boolean) {
+        options!!["options"] = if ((isChecked)) "on" else ""
+        enableExtarnalOptions(isChecked)
     }
 
-    private void enableExtarnalOptions(boolean isChecked) {
-        mBinding.inputAge.setEnabled(isChecked);
-        mBinding.inputCity.setEnabled(isChecked);
-        mBinding.inputName.setEnabled(isChecked);
-        mBinding.sGender.setEnabled(isChecked);
-    }
-
-    /*private OnItemSelectedListener typeSelectedListener = new OnItemSelectedListener() {
+    private fun enableExtarnalOptions(isChecked: Boolean) {
+        mBinding!!.inputAge.isEnabled = isChecked
+        mBinding!!.inputCity.isEnabled = isChecked
+        mBinding!!.inputName.isEnabled = isChecked
+        mBinding!!.sGender.isEnabled = isChecked
+    } /*private OnItemSelectedListener typeSelectedListener = new OnItemSelectedListener() {
 
         @Override
         public void onItemSelected(AdapterView<?> parent, View view,

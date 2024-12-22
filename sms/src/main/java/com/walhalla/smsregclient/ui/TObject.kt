@@ -1,16 +1,5 @@
-package com.walhalla.smsregclient.ui;
+package com.walhalla.smsregclient.ui
 
-import android.graphics.drawable.Drawable;
+import android.graphics.drawable.Drawable
 
-public class TObject {
-
-    public String name;
-    public String code;
-    public Drawable flag;
-
-    public TObject(String name, String code, Drawable flag) {
-        this.name = name;
-        this.code = code;
-        this.flag = flag;
-    }
-}
+class TObject(@JvmField var name: String, @JvmField var code: String, @JvmField var flag: Drawable)

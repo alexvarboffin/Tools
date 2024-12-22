@@ -65,7 +65,7 @@ public class ViewHolder1 extends RecyclerView.ViewHolder implements View.OnClick
             } catch (Exception e) {
                 DLog.handleException(e);
             }
-            if (operation.getStatus().equals(Status.TZ_OVER_OK.value)) {
+            if (Status.TZ_OVER_OK.value.equals(operation.getStatus())) {
                 DrawableCompat.setTint(imageView.getDrawable(), ContextCompat.getColor(context, R.color.btn_green_pressed));
             } else if (operation.getStatus().equals(Status.TZ_OVER_EMPTY.value)) {
                 DrawableCompat.setTint(imageView.getDrawable(), ContextCompat.getColor(context, R.color.bg_circle_red));

@@ -663,7 +663,7 @@
 
 
 # End of content from C:\Users\combo\.gradle\caches\transforms-3\d51df0367edd1d11dc126e48892ab3ef\transformed\material-1.12.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\ffb26a6253a7b23819f28f83cc6ab51a\transformed\jetified-play-services-measurement-api-22.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\9f4c61edc0b2812cf5b85cfe6526e283\transformed\jetified-play-services-measurement-api-22.1.2\proguard.txt
 # Can be removed once we pull in a dependency on firebase-common that includes
 # https://github.com/firebase/firebase-android-sdk/pull/1472/commits/856f1ca1151cdd88679bbc778892f23dfa34fc06#diff-a2ed34b5a38b4c6c686b09e54865eb48
 -dontwarn com.google.auto.value.AutoValue
@@ -672,11 +672,11 @@
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
 # rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.measurement.zzlc {
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjt {
   <fields>;
 }
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\ffb26a6253a7b23819f28f83cc6ab51a\transformed\jetified-play-services-measurement-api-22.1.0\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\9f4c61edc0b2812cf5b85cfe6526e283\transformed\jetified-play-services-measurement-api-22.1.2\proguard.txt
 # The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\a4d7db2228d92dc3a6dd880256b74899\transformed\jetified-transport-backend-cct-3.3.0\proguard.txt
 -dontwarn com.google.auto.value.AutoValue
 -dontwarn com.google.auto.value.AutoValue$Builder
@@ -765,39 +765,39 @@
 
 
 # End of content from C:\Users\combo\.gradle\caches\transforms-3\e92f9be148fe37362ed0a17ab8aabc6c\transformed\jetified-play-services-ads-23.4.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\d881b6e9a4582445c969b4d078fc110d\transformed\jetified-play-services-measurement-22.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\223e9ca5efccd3a96f5e81bb86288191\transformed\jetified-play-services-measurement-22.1.2\proguard.txt
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
 # rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.measurement.zzlc {
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjt {
   <fields>;
 }
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\d881b6e9a4582445c969b4d078fc110d\transformed\jetified-play-services-measurement-22.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\14c5966bfd6658e6659def66eefd719e\transformed\jetified-play-services-measurement-sdk-22.1.0\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\223e9ca5efccd3a96f5e81bb86288191\transformed\jetified-play-services-measurement-22.1.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\9b201f7b8373661b8918c509a5a087d9\transformed\jetified-play-services-measurement-sdk-22.1.2\proguard.txt
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
 # rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.measurement.zzlc {
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjt {
   <fields>;
 }
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\14c5966bfd6658e6659def66eefd719e\transformed\jetified-play-services-measurement-sdk-22.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\a0f3ac6ebb464914c829b8c653adaf53\transformed\jetified-play-services-measurement-impl-22.1.0\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\9b201f7b8373661b8918c509a5a087d9\transformed\jetified-play-services-measurement-sdk-22.1.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\097be2d13031212ecba9d990ac45d624\transformed\jetified-play-services-measurement-impl-22.1.2\proguard.txt
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
 # rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.measurement.zzlc {
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjt {
   <fields>;
 }
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\a0f3ac6ebb464914c829b8c653adaf53\transformed\jetified-play-services-measurement-impl-22.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\64da2f171791dc13d038454932c3e28c\transformed\jetified-review-ktx-2.0.1\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\097be2d13031212ecba9d990ac45d624\transformed\jetified-play-services-measurement-impl-22.1.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\f3cf221fda98a118085ae61bf5c79d3e\transformed\jetified-review-ktx-2.0.2\proguard.txt
 # Proguard cannot process META-INF/versions/9.
 # See https://discuss.gradle.org/t/meta-inf-version-duplicate-error-when-using-proguard/31380
 -dontwarn module-info
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\64da2f171791dc13d038454932c3e28c\transformed\jetified-review-ktx-2.0.1\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\f3cf221fda98a118085ae61bf5c79d3e\transformed\jetified-review-ktx-2.0.2\proguard.txt
 # The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\3f1237d73df3cd70aceeeaf9afd2715c\transformed\jetified-datastore-preferences-1.0.0\proguard.txt
 -keepclassmembers class * extends androidx.datastore.preferences.protobuf.GeneratedMessageLite {
     <fields>;
@@ -958,7 +958,7 @@
 -dontwarn com.google.auto.value.AutoValue$Builder
 
 # End of content from C:\Users\combo\.gradle\caches\transforms-3\5dd7c98257430d0eb9d356a083a2eb58\transformed\jetified-firebase-common-21.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\3cbcb97a4c9ade3797e83423109ea980\transformed\jetified-play-services-base-18.0.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\6fe3d24ae3a97786f62d817bfe79c347\transformed\jetified-play-services-base-18.5.0\proguard.txt
 # b/35135904 Ensure that proguard will not strip the mResultGuardian.
 -keepclassmembers class com.google.android.gms.common.api.internal.BasePendingResult {
   com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian;
@@ -966,29 +966,29 @@
 
 
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\3cbcb97a4c9ade3797e83423109ea980\transformed\jetified-play-services-base-18.0.0\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\6fe3d24ae3a97786f62d817bfe79c347\transformed\jetified-play-services-base-18.5.0\proguard.txt
 # The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\fbcfb57f826143f0ae894886cfb999f2\transformed\jetified-play-services-tasks-18.2.0\proguard.txt
 
 
 # End of content from C:\Users\combo\.gradle\caches\transforms-3\fbcfb57f826143f0ae894886cfb999f2\transformed\jetified-play-services-tasks-18.2.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\342066d326f260533a58e80841507164\transformed\jetified-play-services-measurement-sdk-api-22.1.0\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\21655f94cb201f9aa7dab58716701f3b\transformed\jetified-play-services-measurement-sdk-api-22.1.2\proguard.txt
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
 # rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.measurement.zzlc {
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjt {
   <fields>;
 }
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\342066d326f260533a58e80841507164\transformed\jetified-play-services-measurement-sdk-api-22.1.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\fdf5cf78a113d5dc09eceb051a2035d0\transformed\jetified-play-services-measurement-base-22.1.0\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\21655f94cb201f9aa7dab58716701f3b\transformed\jetified-play-services-measurement-sdk-api-22.1.2\proguard.txt
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\57bfc34722bb416bb7b6c3082356906b\transformed\jetified-play-services-measurement-base-22.1.2\proguard.txt
 # We keep all fields for every generated proto file as the runtime uses
 # reflection over them that ProGuard cannot detect. Without this keep
 # rule, fields may be removed that would cause runtime failures.
--keepclassmembers class * extends com.google.android.gms.internal.measurement.zzlc {
+-keepclassmembers class * extends com.google.android.gms.internal.measurement.zzjt {
   <fields>;
 }
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\fdf5cf78a113d5dc09eceb051a2035d0\transformed\jetified-play-services-measurement-base-22.1.0\proguard.txt
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\57bfc34722bb416bb7b6c3082356906b\transformed\jetified-play-services-measurement-base-22.1.2\proguard.txt
 # The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\679a3aba922d138f42065894f1cf65c5\transformed\jetified-play-services-basement-18.4.0\proguard.txt
 # Needed when building against pre-Marshmallow SDK.
 -dontwarn android.security.NetworkSecurityPolicy
@@ -1412,7 +1412,7 @@
 -dontwarn androidx.room.paging.**
 
 # End of content from C:\Users\combo\.gradle\caches\transforms-3\94de28113fb0743eaed89571c0fe9b88\transformed\room-runtime-2.2.5\proguard.txt
-# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\0ac23bbe4e77fb232331ec20144d97f9\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\combo\.gradle\caches\transforms-3\2da1b8b7b3557fa412d5db0c5a376d6e\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -1432,7 +1432,7 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from C:\Users\combo\.gradle\caches\transforms-3\0ac23bbe4e77fb232331ec20144d97f9\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# End of content from C:\Users\combo\.gradle\caches\transforms-3\2da1b8b7b3557fa412d5db0c5a376d6e\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 # The proguard configuration file for the following section is <unknown>
 
 # End of content from <unknown>
